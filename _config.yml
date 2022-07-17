@@ -1,1 +1,8 @@
 theme: jekyll-theme-midnight
+
+# ["true" or "false" (unquoted) to indicate whether to provide a download URL]
+show_downloads: false 
+google_analytics: # [Your Google Analytics tracking ID]
+
+title: "what-buddha-said.net"
+description: "Bringing Bhante Samahita's wholesome and helpful resources back online."

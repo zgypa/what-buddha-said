@@ -4,6 +4,8 @@ published: false
 
 # What Buddha Said Net
 
+This website is hosted on Github here: [https://zgypa.github.io/what-buddha-said/](https://zgypa.github.io/what-buddha-said/).
+
 This project wants to resume material from Bhante Samahita in his "what-buddha-said.net" web site. Bhante Samahita took his own life in October of 2019. However, he had collected a useful amount of information on this web site. The attempt of this project is to recover whatever is recoverable from the [Way Back Machine](https://web.archive.org).
 
 The idea is to use Jekyll and Github Pages, while keeping the entire repository open source, so that anyone can contribute.

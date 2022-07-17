@@ -3,7 +3,6 @@ layout: default
 title: Mind Brooming
 ---
 
-# {{ page.title }}
 
 Notes taken from question #327 [Dhamma on Air episode 106](https://www.youtube.com/watch?v=qTqIPHUYUTU).
 
@@ -41,10 +40,48 @@ use the wisdom as a tool to help us come out of craving and clinking.
 
 ## How to train clear comprehension (Satthi Sampayanna)
 
-Act clearly comprehending whatever one exactly is doing right now. While going forward, one clearly comprehends one is going forward. While eating, drinking, defecating, walking, standing, lying down, while falling asleep, while speaking, while keeping silent, one clearly comprehends one is doing this.
+Act clearly comprehending whatever one exactly is doing right now. While going
+forward, one clearly comprehends one is going forward. While eating, drinking,
+defecating, walking, standing, lying down, while falling asleep, while speaking,
+while keeping silent, one clearly comprehends one is doing this.
 
 ## In daily practice
 
-Then, as one trains the awareness using the four contemplations of body, sensations, mind and phenomena, and then as one trains clear comprehension by clearly understanding what one is doing, then these skills are applied to the pillow and/or to real life.
+Then, as one trains the awareness using the four contemplations of body,
+sensations, mind and phenomena, and then as one trains clear comprehension by
+clearly understanding what one is doing, then these skills are applied to the
+pillow and/or to real life.
 
-Another trick of becoming acutely aware and clearly comprehending is to analyze whether there is awareness in this very moment of experiencing whatever what one is experiencing: awareness of awareness itself. If one is aware of awareness, then awareness is definitely on.
+In the classical teachings, labelling is used. Here the individual labels
+whatever he or she is doing with what they are actually doing: "Eating? Eating"
+or "Talking? Talking." "Walking? Walking.". However, this technique might have
+the drawback that the mind will easily most likely sooner or later learn how to
+imitate this task blindly, without awareness. And one will eventually
+automatically repeat to one self "Eating? Eating." when one is eating, while
+actually thinking about something else.
+
+Another trick of becoming acutely aware and clearly comprehending is to analyze
+whether or not there is awareness in this very moment of experiencing whatever one
+is experiencing: awareness of awareness itself. If one is aware of awareness,
+then awareness is definitely on. But when one starts to think about the beauty
+of the forest, for example, and how much happiness there is out there, then one
+has already lost awareness, and gone into auto-pilot of emotional reaction.
+
+## Mind Brooming
+
+A practice done before starting meditation, in order to momentarily get rid of
+the five mental hindrances. These techniques will not, alone, eradicate the five hindrances. They will only move the minds attention away from them, in order to allow the mind to increase its concentration.
+
+### Sense Desire
+
+Whenever sense desire arises (food, sex, itch, objects,...), replace the thought
+of the sense desire with something very repulsive. Can be a visual image, a
+taste/flavor, a smell, a sound, whatever memory one has of something that is,
+for them, repulsive can be used in this practice. Whenever the mind is in a
+repulsive state, it cannot simultaneously be in a state of sense desire.
+
+For this, one needs to develop a vocabulary of revolting memories, possibly
+without harming one self and without harming others. A picture of a corpse can
+be very revolting, and is often used.  Bhikkhu Samahita had on his website a
+password protected section called "Ashuba" (with password "ashuba") a collection
+of revolting images which, however, are probably lost at this point.

@@ -3,7 +3,6 @@ layout: default
 title: Feelings and Sensations  
 ---
 
-# {{ page.title }}
 
 Notes taken from question #327 [Dhamma on Air episode 106](https://www.youtube.com/watch?v=qTqIPHUYUTU), and mixed with personal notes.
 

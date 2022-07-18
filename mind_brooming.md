@@ -2,7 +2,7 @@
 layout: default
 title: Mind Brooming
 author: Toni Magni
-date: 2022-W28-7
+date: 2022-07-17
 ---
 
 A technique to use when one is having a hard time concentrating or keeping up the practice.

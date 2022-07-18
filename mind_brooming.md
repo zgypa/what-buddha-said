@@ -1,15 +1,19 @@
 ---
 layout: default
 title: Mind Brooming
+author: Toni Magni
+date: 2022-W28-7
 ---
 
 A technique to use when one is having a hard time concentrating or keeping up the practice.
 
-Notes taken from question #327 [Dhamma on Air episode 106](https://www.youtube.com/watch?v=qTqIPHUYUTU).
+These notes were not taken from what-buddha-said.net, but were primarily transcribed from question #327 in [Dhamma on Air episode 106](https://www.youtube.com/watch?v=qTqIPHUYUTU). The 10 or so minutes in which the Bhikkhu explains these concepts were used as a starting point, to which i have added a few of my personal interpretations.
 
-## Procedure
+This page is divided in two parts: the fist is some sort of checklist, a summary, a table of contents of the entire concept, which i drafted after having taken the notes i the explanation section. I created this with the intent to keep looking at this part to remember all the steps, kind of like a checklist. 
 
-1. Awareness and Comprehension
+# Procedure
+
+1. Awareness and Comprehension (all the time)
 
     1. Become aware by contemplating:
     
@@ -21,7 +25,7 @@ Notes taken from question #327 [Dhamma on Air episode 106](https://www.youtube.c
     1. Gain clear comprehension of what you are doing right now, the situational awareness.
     1. If the above fail, gain awareness and comprehension by analyzing your level of awareness. Are you aware of not being aware? Or of being aware?
 
-1. Broom the Mind
+1. Broom the Mind (before meditation)
 
     1. Sense desire → disgust.
     1. Hate, aversion, ill-will → friendliness

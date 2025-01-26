@@ -5,7 +5,7 @@ layout: default
 
 ![Screenshot of original what-buddha-said.net]({{ site.baseurl }}{% link assets/images/What-Buddha-Said_small.jpg %})
 
-{{ page.title }} was a website run and maintained by Bhikkhu Samahita, which
+{{ page.title }} was a website run and maintained by [Bhikkhu Samahita](https://www.dhammawiki.com/index.php?title=Bhikkhu_Samahita), which
 contained a large amount of material to help anyone on the buddhist path to
 eradicate suffering. Unfortunately, in [October of 2019, he passed away]({{ site.baseurl }}{% link death.md %}), and his
 website was left abandoned. 

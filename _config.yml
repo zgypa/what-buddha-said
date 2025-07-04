@@ -6,3 +6,9 @@ google_analytics: # [Your Google Analytics tracking ID]
 
 title: "what-buddha-said.net"
 description: "Bringing Bhante Samahita's wholesome and helpful resources back online."
+
+exclude:
+  - python
+  - README.md
+  - Gemfile
+  - Gemfile.lock

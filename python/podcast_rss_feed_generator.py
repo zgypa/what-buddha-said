@@ -20,12 +20,13 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 # CONFIGURATION
-BASE_URL = "https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/"
+MEDIA_BASE_URL = "https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/"
+FEED_BASE_URL = "https://www.antoniomagni.com/what-buddha-said"
 PODCAST_TITLE = "Dhamma on Air"
 AUTHOR = "Bikkhu Samahita"
 DESCRIPTION = "A collection of Buddhist-themed audio episodes."
-COVER_IMAGE = "https://www.antoniomagni.com/what-buddha-said/assets/images/samahita.jpg"
-EPISODE_ARTWORK_URL = "/podcasts/dhamma_on_air/episode_artwork/"
+COVER_IMAGE = f"{FEED_BASE_URL}/assets/images/samahita.jpg"
+EPISODE_ARTWORK_URL = f"{FEED_BASE_URL}/podcasts/dhamma_on_air/episode_artwork/"
 
 def generate_rss_header(base_url, cover_image):
     return f"""<?xml version="1.0" encoding="UTF-8"?>
@@ -166,7 +167,7 @@ def main():
     parser.add_argument(
         "--base-url",
         help="Base URL for enclosure links (default: %(default)s)",
-        default=BASE_URL
+        default=MEDIA_BASE_URL
     )
     parser.add_argument(
         "--cover-image",
@@ -307,7 +308,7 @@ def parse_args():
     parser.add_argument(
         "--base-url",
         help="Base URL for enclosure links (default: %(default)s)",
-        default=BASE_URL
+        default=MEDIA_BASE_URL
     )
     parser.add_argument(
         "--cover-image",

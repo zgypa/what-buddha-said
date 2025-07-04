@@ -25,6 +25,7 @@ PODCAST_TITLE = "Dhamma on Air"
 AUTHOR = "Bikkhu Samahita"
 DESCRIPTION = "A collection of Buddhist-themed audio episodes."
 COVER_IMAGE = "https://www.antoniomagni.com/what-buddha-said/assets/images/samahita.jpg"
+EPISODE_ARTWORK_URL = "/podcasts/dhamma_on_air/episode_artwork/"
 
 def generate_rss_header(base_url, cover_image):
     return f"""<?xml version="1.0" encoding="UTF-8"?>
@@ -183,7 +184,6 @@ def main():
     base_url = args.base_url if args.base_url.endswith('/') else args.base_url + '/'
     cover_image = args.cover_image
     episode_artwork_dir = args.artwork_dir or os.path.join(audio_dir, "episode_artwork")
-    episode_artwork_url = "/assets/images/episode_artwork/"
 
     # List all .mp3 files in the directory
     try:
@@ -236,7 +236,7 @@ def main():
         has_episode_artwork = False
         episode_artwork_filename = f"cover-{ep_num}.jpg"
         episode_artwork_path = os.path.join(episode_artwork_dir, episode_artwork_filename)
-        episode_artwork_url_full = episode_artwork_url + episode_artwork_filename
+        EPISODE_ARTWORK_URL_full = EPISODE_ARTWORK_URL + episode_artwork_filename
 
         try:
             audio = MP3(full_path, ID3=ID3)
@@ -273,7 +273,7 @@ def main():
             pub_date = formatdate(timeval=None, localtime=False, usegmt=True)
 
         encoded_filename = quote(filename)
-        itunes_image_url = episode_artwork_url_full if has_episode_artwork else cover_image
+        itunes_image_url = EPISODE_ARTWORK_URL_full if has_episode_artwork else cover_image
         duration = get_mp3_duration(full_path)
         explicit = "false"
 

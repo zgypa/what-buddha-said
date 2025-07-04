@@ -13,7 +13,7 @@ from email.utils import formatdate
 from urllib.parse import quote
 from xml.sax.saxutils import escape
 from mutagen.mp3 import MP3
-from mutagen.id3 import ID3, APIC
+from mutagen.id3 import ID3, APIC, TIT2, TPE1, TALB, TCON, TDRC, COMM, USLT, TXXX
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -97,6 +97,44 @@ def get_mp3_duration(filepath):
     except Exception:
         return None
 
+def extract_id3_description(audio):
+    """Extract a detailed description from all available ID3 tags."""
+    lines = []
+    # Title
+    title = audio.tags.get('TIT2')
+    if title:
+        lines.append(f"Title: {title.text[0]}")
+    # Artist
+    artist = audio.tags.get('TPE1')
+    if artist:
+        lines.append(f"Artist: {artist.text[0]}")
+    # Album
+    album = audio.tags.get('TALB')
+    if album:
+        lines.append(f"Album: {album.text[0]}")
+    # Genre
+    genre = audio.tags.get('TCON')
+    if genre:
+        lines.append(f"Genre: {genre.text[0]}")
+    # Year/Date
+    date = audio.tags.get('TDRC')
+    if date:
+        lines.append(f"Date: {date.text[0]}")
+    # Comments
+    for comm in audio.tags.getall('COMM'):
+        if comm.text:
+            lines.append(f"Comment: {comm.text[0]}")
+    # Lyrics
+    for uslt in audio.tags.getall('USLT'):
+        if uslt.text:
+            lines.append(f"Lyrics: {uslt.text}")
+    # Custom TXXX frames
+    for txxx in audio.tags.getall('TXXX'):
+        if txxx.desc and txxx.text:
+            lines.append(f"{txxx.desc}: {txxx.text[0]}")
+    # Join all lines
+    return "\n".join(lines) if lines else None
+
 def main():
     parser = argparse.ArgumentParser(
         description="Generate a podcast RSS feed from a directory of MP3 files."
@@ -164,17 +202,17 @@ def main():
 
         ep_num = ep_match.group(1)
         title_raw = ep_match.group(2).strip()
-        description = title_raw
         full_path = os.path.join(audio_dir, filename)
 
-        # --- Extract episode artwork ---
-        episode_artwork_filename = f"cover-{ep_num}.jpg"
-        episode_artwork_path = os.path.join(episode_artwork_dir, episode_artwork_filename)
-        episode_artwork_url_full = episode_artwork_url + episode_artwork_filename
-        has_episode_artwork = False
-
+        description = title_raw  # fallback
         try:
             audio = MP3(full_path, ID3=ID3)
+            # --- Extract episode artwork ---
+            episode_artwork_filename = f"cover-{ep_num}.jpg"
+            episode_artwork_path = os.path.join(episode_artwork_dir, episode_artwork_filename)
+            episode_artwork_url_full = episode_artwork_url + episode_artwork_filename
+            has_episode_artwork = False
+
             if audio.tags is not None:
                 for tag in audio.tags.values():
                     if isinstance(tag, APIC):
@@ -184,8 +222,13 @@ def main():
                                 img.write(tag.data)
                         has_episode_artwork = True
                         break
+
+                # --- Extract ID3 description ---
+                id3_desc = extract_id3_description(audio)
+                if id3_desc:
+                    description = id3_desc
         except Exception as e:
-            logger.warning(f"⚠️ Could not extract artwork from {filename}: {e}")
+            logger.warning(f"⚠️ Could not extract ID3 tags from {filename}: {e}")
 
         try:
             file_size = os.path.getsize(full_path)

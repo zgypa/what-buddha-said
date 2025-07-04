@@ -135,6 +135,20 @@ def extract_id3_description(audio):
     # Join all lines
     return "\n".join(lines) if lines else None
 
+def extract_id3_title_and_track(audio):
+    """Extract title and track number from ID3 tags."""
+    title = None
+    track = None
+    if audio.tags:
+        tit2 = audio.tags.get('TIT2')
+        if tit2 and tit2.text:
+            title = tit2.text[0]
+        trck = audio.tags.get('TRCK')
+        if trck and trck.text:
+            # Track number may be '5/12', just take the first part
+            track = str(trck.text[0]).split('/')[0]
+    return title, track
+
 def main():
     parser = argparse.ArgumentParser(
         description="Generate a podcast RSS feed from a directory of MP3 files."
@@ -183,47 +197,59 @@ def main():
         logger.error("❌ No MP3 files found in the directory.")
         sys.exit(1)
 
-    # Sort by episode number extracted from filename prefix
-    def extract_episode_number(filename):
-        match = re.match(r"(\d+)", filename)
-        return int(match.group(1)) if match else 9999  # fallback if no number
-
-    mp3_files.sort(key=extract_episode_number)
-
     # Ensure episode artwork directory exists
     os.makedirs(episode_artwork_dir, exist_ok=True)
 
-    rss_feed = generate_rss_header(base_url, cover_image)
+    # Build a list of tuples: (track_number, title, filename)
+    episode_infos = []
     for filename in mp3_files:
-        ep_match = re.match(r"(\d+)\s+(.*)\.mp3", filename)
-        if not ep_match:
-            logger.warning(f"⚠️ Skipping file (no episode number prefix): {filename}")
-            continue
-
-        ep_num = ep_match.group(1)
-        title_raw = ep_match.group(2).strip()
         full_path = os.path.join(audio_dir, filename)
-
-        description = title_raw  # fallback
         try:
             audio = MP3(full_path, ID3=ID3)
-            # --- Extract episode artwork ---
-            episode_artwork_filename = f"cover-{ep_num}.jpg"
-            episode_artwork_path = os.path.join(episode_artwork_dir, episode_artwork_filename)
-            episode_artwork_url_full = episode_artwork_url + episode_artwork_filename
-            has_episode_artwork = False
+            id3_title, id3_track = extract_id3_title_and_track(audio)
+            # Only use files with a valid track number
+            if id3_track and id3_track.isdigit():
+                episode_infos.append((int(id3_track), id3_title, filename))
+            else:
+                # fallback: try to extract from filename
+                ep_match = re.match(r"(\d+)", filename)
+                if ep_match:
+                    episode_infos.append((int(ep_match.group(1)), id3_title, filename))
+        except Exception as e:
+            logger.warning(f"⚠️ Could not extract ID3 tags from {filename}: {e}")
+            ep_match = re.match(r"(\d+)", filename)
+            if ep_match:
+                episode_infos.append((int(ep_match.group(1)), None, filename))
 
+    # Sort by episode number (track)
+    episode_infos.sort(key=lambda x: x[0])
+
+    rss_feed = generate_rss_header(base_url, cover_image)
+    for ep_num_int, id3_title, filename in episode_infos:
+        ep_num = str(ep_num_int).zfill(2)
+        full_path = os.path.join(audio_dir, filename)
+
+        # Use ID3 title if available, else fallback to filename (without extension)
+        title_raw = id3_title if id3_title else os.path.splitext(filename)[0]
+
+        description = title_raw  # fallback
+        has_episode_artwork = False
+        episode_artwork_filename = f"cover-{ep_num}.jpg"
+        episode_artwork_path = os.path.join(episode_artwork_dir, episode_artwork_filename)
+        episode_artwork_url_full = episode_artwork_url + episode_artwork_filename
+
+        try:
+            audio = MP3(full_path, ID3=ID3)
             if audio.tags is not None:
+                # Extract artwork
                 for tag in audio.tags.values():
                     if isinstance(tag, APIC):
-                        # Save artwork if not already saved
                         if not os.path.exists(episode_artwork_path):
                             with open(episode_artwork_path, "wb") as img:
                                 img.write(tag.data)
                         has_episode_artwork = True
                         break
-
-                # --- Extract ID3 description ---
+                # Extract description
                 id3_desc = extract_id3_description(audio)
                 if id3_desc:
                     description = id3_desc
@@ -232,23 +258,20 @@ def main():
 
         try:
             file_size = os.path.getsize(full_path)
-            # Get file creation time (birth time on macOS, ctime on other systems)
             try:
                 file_creation_time = os.stat(full_path).st_birthtime
             except AttributeError:
-                # Fallback to ctime if birthtime is not available
                 file_creation_time = os.stat(full_path).st_ctime
         except FileNotFoundError:
             logger.error(f"⚠️ File not found: {full_path}")
             file_size = 0
             file_creation_time = None
 
-        # Use file creation time for publication date, fallback to current time if unavailable
         if file_creation_time:
             pub_date = formatdate(timeval=file_creation_time, localtime=False, usegmt=True)
         else:
             pub_date = formatdate(timeval=None, localtime=False, usegmt=True)
-        
+
         encoded_filename = quote(filename)
         itunes_image_url = episode_artwork_url_full if has_episode_artwork else cover_image
         duration = get_mp3_duration(full_path)

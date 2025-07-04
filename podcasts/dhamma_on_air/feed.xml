@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
-     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Dhamma on Air</title>
     <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/</link>
@@ -9,1094 +10,2652 @@
     <itunes:author>Bikkhu Samahita</itunes:author>
     <itunes:image href="https://www.antoniomagni.com/what-buddha-said/assets/images/samahita.jpg"/>
     <itunes:summary>A collection of Buddhist-themed audio episodes.</itunes:summary>
-    
+    <itunes:explicit>false</itunes:explicit>
+    <image>
+      <url>https://www.antoniomagni.com/what-buddha-said/assets/images/samahita.jpg</url>
+      <title>Dhamma on Air</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/</link>
+    </image>
+
     <item>
-      <title>Episode 000: Dhamma on Air Trailer</title>
-      <description>Dhamma on Air Trailer</description>
+      <title>Episode 00: Dhamma on Air Trailer</title>
+      <description>Title: Dhamma on Air Trailer
+Artist: Bhikkhu Samahita
+Album: Dhamma On Air</description>
+      <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/000%2520Dhamma%2520on%2520Air%2520Trailer.mp3" length="848995" type="audio/mpeg"/>
+      <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/000%2520Dhamma%2520on%2520Air%2520Trailer.mp3</guid>
+      <pubDate>Fri, 04 Jul 2025 22:30:12 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-00.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>0:51</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-00.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/000%2520Dhamma%2520on%2520Air%2520Trailer.mp3" type="audio/mpeg" fileSize="848995" medium="audio"/>
+      <media:title>Episode 00: Dhamma on Air Trailer</media:title>
+      <media:description>Title: Dhamma on Air Trailer
+Artist: Bhikkhu Samahita
+Album: Dhamma On Air</media:description>
+    </item>
+
+    <item>
+      <title>Episode 00: Dhamma on Air Trailer</title>
+      <description>Title: Dhamma on Air Trailer
+Artist: Bhikkhu Samahita
+Album: Dhamma On Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/000%20Dhamma%20on%20Air%20Trailer.mp3" length="848995" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/000%20Dhamma%20on%20Air%20Trailer.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 02:17:09 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:02:44 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-00.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>0:51</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-00.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/000%20Dhamma%20on%20Air%20Trailer.mp3" type="audio/mpeg" fileSize="848995" medium="audio"/>
+      <media:title>Episode 00: Dhamma on Air Trailer</media:title>
+      <media:description>Title: Dhamma on Air Trailer
+Artist: Bhikkhu Samahita
+Album: Dhamma On Air</media:description>
     </item>
 
     <item>
       <title>Episode 01: First Episode</title>
-      <description>First Episode</description>
+      <description>Title: First Episode
+Artist: Bhikkhu Samahita
+Album: Dhamma On Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/01%20First%20Episode.mp3" length="84571117" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/01%20First%20Episode.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:02:46 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-01.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:28:04</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-01.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/01%20First%20Episode.mp3" type="audio/mpeg" fileSize="84571117" medium="audio"/>
+      <media:title>Episode 01: First Episode</media:title>
+      <media:description>Title: First Episode
+Artist: Bhikkhu Samahita
+Album: Dhamma On Air</media:description>
+    </item>
+
+    <item>
+      <title>Episode 01: First Episode</title>
+      <description>Title: First Episode
+Artist: Bhikkhu Samahita
+Album: Dhamma On Air</description>
+      <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/01%2520First%2520Episode.mp3" length="84571117" type="audio/mpeg"/>
+      <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/01%2520First%2520Episode.mp3</guid>
+      <pubDate>Fri, 04 Jul 2025 22:30:13 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-01.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:28:04</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-01.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/01%2520First%2520Episode.mp3" type="audio/mpeg" fileSize="84571117" medium="audio"/>
+      <media:title>Episode 01: First Episode</media:title>
+      <media:description>Title: First Episode
+Artist: Bhikkhu Samahita
+Album: Dhamma On Air</media:description>
     </item>
 
     <item>
       <title>Episode 02: Second Episode</title>
-      <description>Second Episode</description>
+      <description>Title: Second Episode
+Artist: Bhikkhu Samahita
+Album: Dhamma On Air</description>
+      <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/02%2520Second%2520Episode.mp3" length="6107136" type="audio/mpeg"/>
+      <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/02%2520Second%2520Episode.mp3</guid>
+      <pubDate>Fri, 04 Jul 2025 22:30:35 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-02.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>27:10</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-02.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/02%2520Second%2520Episode.mp3" type="audio/mpeg" fileSize="6107136" medium="audio"/>
+      <media:title>Episode 02: Second Episode</media:title>
+      <media:description>Title: Second Episode
+Artist: Bhikkhu Samahita
+Album: Dhamma On Air</media:description>
+    </item>
+
+    <item>
+      <title>Episode 02: Second Episode</title>
+      <description>Title: Second Episode
+Artist: Bhikkhu Samahita
+Album: Dhamma On Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/02%20Second%20Episode.mp3" length="26100345" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/02%20Second%20Episode.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:02:47 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-02.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>27:10</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-02.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/02%20Second%20Episode.mp3" type="audio/mpeg" fileSize="26100345" medium="audio"/>
+      <media:title>Episode 02: Second Episode</media:title>
+      <media:description>Title: Second Episode
+Artist: Bhikkhu Samahita
+Album: Dhamma On Air</media:description>
     </item>
 
     <item>
       <title>Episode 03: Episode 3</title>
-      <description>Episode 3</description>
+      <description>Title: Episode 3
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/03%20Episode%203.mp3" length="48906244" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/03%20Episode%203.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:02:48 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-03.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:07:54</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-03.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/03%20Episode%203.mp3" type="audio/mpeg" fileSize="48906244" medium="audio"/>
+      <media:title>Episode 03: Episode 3</media:title>
+      <media:description>Title: Episode 3
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 04: Episode 4</title>
-      <description>Episode 4</description>
+      <description>Title: Episode 4
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/04%20Episode%204.mp3" length="53636370" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/04%20Episode%204.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:02:51 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-04.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:14:28</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-04.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/04%20Episode%204.mp3" type="audio/mpeg" fileSize="53636370" medium="audio"/>
+      <media:title>Episode 04: Episode 4</media:title>
+      <media:description>Title: Episode 4
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 05: Episode 5</title>
-      <description>Episode 5</description>
+      <description>Title: Episode 5
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/05%20Episode%205.mp3" length="39108713" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/05%20Episode%205.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:02:52 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-05.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>54:17</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-05.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/05%20Episode%205.mp3" type="audio/mpeg" fileSize="39108713" medium="audio"/>
+      <media:title>Episode 05: Episode 5</media:title>
+      <media:description>Title: Episode 5
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 06: Mara and the Multiverse</title>
-      <description>Mara and the Multiverse</description>
+      <description>Title: Mara and the Multiverse
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/06%20Mara%20and%20the%20Multiverse.mp3" length="43847585" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/06%20Mara%20and%20the%20Multiverse.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:02:53 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-06.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:00:52</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-06.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/06%20Mara%20and%20the%20Multiverse.mp3" type="audio/mpeg" fileSize="43847585" medium="audio"/>
+      <media:title>Episode 06: Mara and the Multiverse</media:title>
+      <media:description>Title: Mara and the Multiverse
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 07: Jhana and Merit</title>
-      <description>Jhana and Merit</description>
+      <description>Title: Jhana and Merit
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/07%20Jhana%20and%20Merit.mp3" length="51509953" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/07%20Jhana%20and%20Merit.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:02:55 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-07.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:11:30</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-07.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/07%20Jhana%20and%20Merit.mp3" type="audio/mpeg" fileSize="51509953" medium="audio"/>
+      <media:title>Episode 07: Jhana and Merit</media:title>
+      <media:description>Title: Jhana and Merit
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 08: The next Buddha Metteyya and Kamma</title>
-      <description>The next Buddha Metteyya and Kamma</description>
+      <description>Title: The next Buddha Metteyya and Kamma
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/08%20The%20next%20Buddha%20Metteyya%20and%20Kamma.mp3" length="26131215" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/08%20The%20next%20Buddha%20Metteyya%20and%20Kamma.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:02:55 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-08.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>27:12</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-08.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/08%20The%20next%20Buddha%20Metteyya%20and%20Kamma.mp3" type="audio/mpeg" fileSize="26131215" medium="audio"/>
+      <media:title>Episode 08: The next Buddha Metteyya and Kamma</media:title>
+      <media:description>Title: The next Buddha Metteyya and Kamma
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 09: Nobles and Past Lives</title>
-      <description>Nobles and Past Lives</description>
+      <description>Title: Nobles and Past Lives
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/09%20Nobles%20and%20Past%20Lives.mp3" length="56575244" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/09%20Nobles%20and%20Past%20Lives.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:02:57 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-09.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>58:54</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-09.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/09%20Nobles%20and%20Past%20Lives.mp3" type="audio/mpeg" fileSize="56575244" medium="audio"/>
+      <media:title>Episode 09: Nobles and Past Lives</media:title>
+      <media:description>Title: Nobles and Past Lives
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 10: The Double Slit Experiment</title>
-      <description>The Double Slit Experiment</description>
+      <description>Title: The Double Slit Experiment
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/10%20The%20Double%20Slit%20Experiment.mp3" length="40482730" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/10%20The%20Double%20Slit%20Experiment.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:02:58 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-10.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>56:12</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-10.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/10%20The%20Double%20Slit%20Experiment.mp3" type="audio/mpeg" fileSize="40482730" medium="audio"/>
+      <media:title>Episode 10: The Double Slit Experiment</media:title>
+      <media:description>Title: The Double Slit Experiment
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 11: The 5 Destinations</title>
-      <description>The 5 Destinations</description>
+      <description>Title: The 5 Destinations
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/11%20The%205%20Destinations.mp3" length="49066171" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/11%20The%205%20Destinations.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:12 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-11.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>51:05</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-11.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/11%20The%205%20Destinations.mp3" type="audio/mpeg" fileSize="49066171" medium="audio"/>
+      <media:title>Episode 11: The 5 Destinations</media:title>
+      <media:description>Title: The 5 Destinations
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 12: Death-Consciousness</title>
-      <description>Death-Consciousness</description>
+      <description>Title: Death-Consciousness
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/12%20Death-Consciousness.mp3" length="32315000" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/12%20Death-Consciousness.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:30 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-12.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>44:51</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-12.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/12%20Death-Consciousness.mp3" type="audio/mpeg" fileSize="32315000" medium="audio"/>
+      <media:title>Episode 12: Death-Consciousness</media:title>
+      <media:description>Title: Death-Consciousness
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 13: The 3 Jewels</title>
-      <description>The 3 Jewels</description>
+      <description>Title: The 3 Jewels
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/13%20The%203%20Jewels.mp3" length="44680914" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/13%20The%203%20Jewels.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:50 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-13.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:02:01</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-13.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/13%20The%203%20Jewels.mp3" type="audio/mpeg" fileSize="44680914" medium="audio"/>
+      <media:title>Episode 13: The 3 Jewels</media:title>
+      <media:description>Title: The 3 Jewels
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 14: Stream-Entry &amp; the 5 Hindrances</title>
-      <description>Stream-Entry &amp; the 5 Hindrances</description>
+      <description>Title: Stream-Entry &amp; the 5 Hindrances
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/14%20Stream-Entry%20%26%20the%205%20Hindrances.mp3" length="55358825" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/14%20Stream-Entry%20%26%20the%205%20Hindrances.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:05 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-14.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:16:52</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-14.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/14%20Stream-Entry%20%26%20the%205%20Hindrances.mp3" type="audio/mpeg" fileSize="55358825" medium="audio"/>
+      <media:title>Episode 14: Stream-Entry &amp; the 5 Hindrances</media:title>
+      <media:description>Title: Stream-Entry &amp; the 5 Hindrances
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 15: The mental and the mind-made body</title>
-      <description>The mental and the mind-made body</description>
+      <description>Title: The mental and the mind-made body
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/15%20The%20mental%20and%20the%20mind-made%20body.mp3" length="56941233" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/15%20The%20mental%20and%20the%20mind-made%20body.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:07 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-15.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>59:18</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-15.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/15%20The%20mental%20and%20the%20mind-made%20body.mp3" type="audio/mpeg" fileSize="56941233" medium="audio"/>
+      <media:title>Episode 15: The mental and the mind-made body</media:title>
+      <media:description>Title: The mental and the mind-made body
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 16: Rebirth Transmigration</title>
-      <description>Rebirth Transmigration</description>
+      <description>Title: Rebirth Transmigration
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/16%20Rebirth%20Transmigration.mp3" length="53925185" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/16%20Rebirth%20Transmigration.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:09 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-16.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>56:09</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-16.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/16%20Rebirth%20Transmigration.mp3" type="audio/mpeg" fileSize="53925185" medium="audio"/>
+      <media:title>Episode 16: Rebirth Transmigration</media:title>
+      <media:description>Title: Rebirth Transmigration
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 17: Reincarnation Research</title>
-      <description>Reincarnation Research</description>
+      <description>Title: Reincarnation Research
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/17%20Reincarnation%20Research.mp3" length="56903587" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/17%20Reincarnation%20Research.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:10 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-17.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>59:15</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-17.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/17%20Reincarnation%20Research.mp3" type="audio/mpeg" fileSize="56903587" medium="audio"/>
+      <media:title>Episode 17: Reincarnation Research</media:title>
+      <media:description>Title: Reincarnation Research
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 18: Conditioned Clustering</title>
-      <description>Conditioned Clustering</description>
+      <description>Title: Conditioned Clustering
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/18%20Conditioned%20Clustering.mp3" length="59244148" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/18%20Conditioned%20Clustering.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:12 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-18.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:01:41</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-18.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/18%20Conditioned%20Clustering.mp3" type="audio/mpeg" fileSize="59244148" medium="audio"/>
+      <media:title>Episode 18: Conditioned Clustering</media:title>
+      <media:description>Title: Conditioned Clustering
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 19: Meditation increases the IQ</title>
-      <description>Meditation increases the IQ</description>
+      <description>Title: Meditation increases the IQ
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/19%20Meditation%20increases%20the%20IQ.mp3" length="45625725" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/19%20Meditation%20increases%20the%20IQ.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:14 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-19.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>47:30</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-19.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/19%20Meditation%20increases%20the%20IQ.mp3" type="audio/mpeg" fileSize="45625725" medium="audio"/>
+      <media:title>Episode 19: Meditation increases the IQ</media:title>
+      <media:description>Title: Meditation increases the IQ
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 20: Relics, Passions, Dreams, and Aliens</title>
-      <description>Relics, Passions, Dreams, and Aliens</description>
+      <description>Title: Relics, Passions, Dreams, and Aliens
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/20%20Relics%2C%20Passions%2C%20Dreams%2C%20and%20Aliens.mp3" length="50850214" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/20%20Relics%2C%20Passions%2C%20Dreams%2C%20and%20Aliens.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:15 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-20.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>52:57</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-20.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/20%20Relics%2C%20Passions%2C%20Dreams%2C%20and%20Aliens.mp3" type="audio/mpeg" fileSize="50850214" medium="audio"/>
+      <media:title>Episode 20: Relics, Passions, Dreams, and Aliens</media:title>
+      <media:description>Title: Relics, Passions, Dreams, and Aliens
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 21: Right View vs. Nihilism</title>
-      <description>Right View vs. Nihilism</description>
+      <description>Title: Right View vs. Nihilism
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/21%20Right%20View%20vs.%20Nihilism.mp3" length="47109138" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/21%20Right%20View%20vs.%20Nihilism.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:17 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-21.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>49:02</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-21.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/21%20Right%20View%20vs.%20Nihilism.mp3" type="audio/mpeg" fileSize="47109138" medium="audio"/>
+      <media:title>Episode 21: Right View vs. Nihilism</media:title>
+      <media:description>Title: Right View vs. Nihilism
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 22: Right Livelihood &amp; Consciousness</title>
-      <description>Right Livelihood &amp; Consciousness</description>
+      <description>Title: Right Livelihood &amp; Consciousness
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/22%20Right%20Livelihood%20%26%20Consciousness.mp3" length="35067797" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/22%20Right%20Livelihood%20%26%20Consciousness.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:18 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-22.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>36:30</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-22.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/22%20Right%20Livelihood%20%26%20Consciousness.mp3" type="audio/mpeg" fileSize="35067797" medium="audio"/>
+      <media:title>Episode 22: Right Livelihood &amp; Consciousness</media:title>
+      <media:description>Title: Right Livelihood &amp; Consciousness
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 23: Vesak and Right Effort</title>
-      <description>Vesak and Right Effort</description>
+      <description>Title: Vesak and Right Effort
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/23%20Vesak%20and%20Right%20Effort.mp3" length="43815094" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/23%20Vesak%20and%20Right%20Effort.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:19 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-23.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>45:37</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-23.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/23%20Vesak%20and%20Right%20Effort.mp3" type="audio/mpeg" fileSize="43815094" medium="audio"/>
+      <media:title>Episode 23: Vesak and Right Effort</media:title>
+      <media:description>Title: Vesak and Right Effort
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 24: Genesis and Cosmology</title>
-      <description>Genesis and Cosmology</description>
+      <description>Title: Genesis and Cosmology
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/24%20Genesis%20and%20Cosmology.mp3" length="45136616" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/24%20Genesis%20and%20Cosmology.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:21 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-24.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>47:00</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-24.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/24%20Genesis%20and%20Cosmology.mp3" type="audio/mpeg" fileSize="45136616" medium="audio"/>
+      <media:title>Episode 24: Genesis and Cosmology</media:title>
+      <media:description>Title: Genesis and Cosmology
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 25: The 10 indeterminable questions</title>
-      <description>The 10 indeterminable questions</description>
+      <description>Title: The 10 indeterminable questions
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/25%20The%2010%20indeterminable%20questions.mp3" length="58143913" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/25%20The%2010%20indeterminable%20questions.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:22 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-25.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:00:32</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-25.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/25%20The%2010%20indeterminable%20questions.mp3" type="audio/mpeg" fileSize="58143913" medium="audio"/>
+      <media:title>Episode 25: The 10 indeterminable questions</media:title>
+      <media:description>Title: The 10 indeterminable questions
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 26: The 40 Classic Meditations</title>
-      <description>The 40 Classic Meditations</description>
+      <description>Title: The 40 Classic Meditations
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/26%20The%2040%20Classic%20Meditations.mp3" length="58048119" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/26%20The%2040%20Classic%20Meditations.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:24 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-26.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:00:27</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-26.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/26%20The%2040%20Classic%20Meditations.mp3" type="audio/mpeg" fileSize="58048119" medium="audio"/>
+      <media:title>Episode 26: The 40 Classic Meditations</media:title>
+      <media:description>Title: The 40 Classic Meditations
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 27: The Space-Time Onion</title>
-      <description>The Space-Time Onion</description>
+      <description>Title: The Space-Time Onion
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/27%20The%20Space-Time%20Onion.mp3" length="51635720" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/27%20The%20Space-Time%20Onion.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:26 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-27.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>53:46</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-27.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/27%20The%20Space-Time%20Onion.mp3" type="audio/mpeg" fileSize="51635720" medium="audio"/>
+      <media:title>Episode 27: The Space-Time Onion</media:title>
+      <media:description>Title: The Space-Time Onion
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 28: Solar n Zen</title>
-      <description>Solar n Zen</description>
+      <description>Title: Solar n Zen
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/28%20Solar%20n%20Zen.mp3" length="64566110" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/28%20Solar%20n%20Zen.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:28 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-28.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:07:14</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-28.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/28%20Solar%20n%20Zen.mp3" type="audio/mpeg" fileSize="64566110" medium="audio"/>
+      <media:title>Episode 28: Solar n Zen</media:title>
+      <media:description>Title: Solar n Zen
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 29: Escaping the Mirror-House</title>
-      <description>Escaping the Mirror-House</description>
+      <description>Title: Escaping the Mirror-House
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/29%20Escaping%20the%20Mirror-House.mp3" length="45255129" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/29%20Escaping%20the%20Mirror-House.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:29 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-29.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>47:07</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-29.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/29%20Escaping%20the%20Mirror-House.mp3" type="audio/mpeg" fileSize="45255129" medium="audio"/>
+      <media:title>Episode 29: Escaping the Mirror-House</media:title>
+      <media:description>Title: Escaping the Mirror-House
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 30: Right Speech &amp; Stream Entry</title>
-      <description>Right Speech &amp; Stream Entry</description>
+      <description>Title: Right Speech &amp; Stream Entry
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/30%20Right%20Speech%20%26%20Stream%20Entry.mp3" length="56352147" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/30%20Right%20Speech%20%26%20Stream%20Entry.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:31 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-30.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>58:41</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-30.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/30%20Right%20Speech%20%26%20Stream%20Entry.mp3" type="audio/mpeg" fileSize="56352147" medium="audio"/>
+      <media:title>Episode 30: Right Speech &amp; Stream Entry</media:title>
+      <media:description>Title: Right Speech &amp; Stream Entry
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 31: Distraction &amp; Disillusion</title>
-      <description>Distraction &amp; Disillusion</description>
+      <description>Title: Distraction &amp; Disillusion
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/31%20Distraction%20%26%20Disillusion.mp3" length="48136778" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/31%20Distraction%20%26%20Disillusion.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:32 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-31.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>50:07</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-31.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/31%20Distraction%20%26%20Disillusion.mp3" type="audio/mpeg" fileSize="48136778" medium="audio"/>
+      <media:title>Episode 31: Distraction &amp; Disillusion</media:title>
+      <media:description>Title: Distraction &amp; Disillusion
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 32: The 7 Sets</title>
-      <description>The 7 Sets</description>
+      <description>Title: The 7 Sets
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/32%20The%207%20Sets.mp3" length="46011856" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/32%20The%207%20Sets.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:34 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-32.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>47:55</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-32.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/32%20The%207%20Sets.mp3" type="audio/mpeg" fileSize="46011856" medium="audio"/>
+      <media:title>Episode 32: The 7 Sets</media:title>
+      <media:description>Title: The 7 Sets
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 33: Emergence from Emptiness..</title>
-      <description>Emergence from Emptiness..</description>
+      <description>Title: Emergence from Emptiness..
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/33%20Emergence%20from%20Emptiness...mp3" length="58103260" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/33%20Emergence%20from%20Emptiness...mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:36 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-33.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:00:30</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-33.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/33%20Emergence%20from%20Emptiness...mp3" type="audio/mpeg" fileSize="58103260" medium="audio"/>
+      <media:title>Episode 33: Emergence from Emptiness..</media:title>
+      <media:description>Title: Emergence from Emptiness..
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 34: Solitude versus Superstition</title>
-      <description>Solitude versus Superstition</description>
+      <description>Title: Solitude versus Superstition
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/34%20Solitude%20versus%20Superstition.mp3" length="71225699" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/34%20Solitude%20versus%20Superstition.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:38 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-34.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:14:10</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-34.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/34%20Solitude%20versus%20Superstition.mp3" type="audio/mpeg" fileSize="71225699" medium="audio"/>
+      <media:title>Episode 34: Solitude versus Superstition</media:title>
+      <media:description>Title: Solitude versus Superstition
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 35: The Way beyond Kamma</title>
-      <description>The Way beyond Kamma</description>
+      <description>Title: The Way beyond Kamma
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/35%20The%20Way%20beyond%20Kamma.mp3" length="53999567" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/35%20The%20Way%20beyond%20Kamma.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:39 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-35.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>56:13</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-35.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/35%20The%20Way%20beyond%20Kamma.mp3" type="audio/mpeg" fileSize="53999567" medium="audio"/>
+      <media:title>Episode 35: The Way beyond Kamma</media:title>
+      <media:description>Title: The Way beyond Kamma
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 36: The 31 Levels of Existence</title>
-      <description>The 31 Levels of Existence</description>
+      <description>Title: The 31 Levels of Existence
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/36%20The%2031%20Levels%20of%20Existence.mp3" length="57595042" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/36%20The%2031%20Levels%20of%20Existence.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:41 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-36.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>59:58</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-36.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/36%20The%2031%20Levels%20of%20Existence.mp3" type="audio/mpeg" fileSize="57595042" medium="audio"/>
+      <media:title>Episode 36: The 31 Levels of Existence</media:title>
+      <media:description>Title: The 31 Levels of Existence
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 37: The 24 Conditional Relations</title>
-      <description>The 24 Conditional Relations</description>
+      <description>Title: The 24 Conditional Relations
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/37%20The%2024%20Conditional%20Relations.mp3" length="53169464" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/37%20The%2024%20Conditional%20Relations.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:43 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-37.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>55:22</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-37.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/37%20The%2024%20Conditional%20Relations.mp3" type="audio/mpeg" fileSize="53169464" medium="audio"/>
+      <media:title>Episode 37: The 24 Conditional Relations</media:title>
+      <media:description>Title: The 24 Conditional Relations
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 38: Stream-Winning Merit</title>
-      <description>Stream-Winning Merit</description>
+      <description>Title: Stream-Winning Merit
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/38%20Stream-Winning%20Merit.mp3" length="63635282" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/38%20Stream-Winning%20Merit.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:45 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-38.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:06:16</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-38.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/38%20Stream-Winning%20Merit.mp3" type="audio/mpeg" fileSize="63635282" medium="audio"/>
+      <media:title>Episode 38: Stream-Winning Merit</media:title>
+      <media:description>Title: Stream-Winning Merit
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 39: Dhamma Reunion</title>
-      <description>Dhamma Reunion</description>
+      <description>Title: Dhamma Reunion
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/39%20Dhamma%20Reunion.mp3" length="55006548" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/39%20Dhamma%20Reunion.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:46 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-39.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>57:16</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-39.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/39%20Dhamma%20Reunion.mp3" type="audio/mpeg" fileSize="55006548" medium="audio"/>
+      <media:title>Episode 39: Dhamma Reunion</media:title>
+      <media:description>Title: Dhamma Reunion
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 41: The Raft and Sirima</title>
-      <description>The Raft and Sirima</description>
+      <description>Title: The Raft and Sirima
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/41%20The%20Raft%20and%20Sirima.mp3" length="66189830" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/41%20The%20Raft%20and%20Sirima.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:48 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-41.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:08:55</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-41.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/41%20The%20Raft%20and%20Sirima.mp3" type="audio/mpeg" fileSize="66189830" medium="audio"/>
+      <media:title>Episode 41: The Raft and Sirima</media:title>
+      <media:description>Title: The Raft and Sirima
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 42: The Lost Traveller</title>
-      <description>The Lost Traveller</description>
+      <description>Title: The Lost Traveller
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/42%20The%20Lost%20Traveller.mp3" length="56077476" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/42%20The%20Lost%20Traveller.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:50 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-42.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>58:24</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-42.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/42%20The%20Lost%20Traveller.mp3" type="audio/mpeg" fileSize="56077476" medium="audio"/>
+      <media:title>Episode 42: The Lost Traveller</media:title>
+      <media:description>Title: The Lost Traveller
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 43: How to Cure Depression</title>
-      <description>How to Cure Depression</description>
+      <description>Title: How to Cure Depression
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/43%20How%20to%20Cure%20Depression.mp3" length="50324684" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/43%20How%20to%20Cure%20Depression.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:52 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-43.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>52:24</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-43.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/43%20How%20to%20Cure%20Depression.mp3" type="audio/mpeg" fileSize="50324684" medium="audio"/>
+      <media:title>Episode 43: How to Cure Depression</media:title>
+      <media:description>Title: How to Cure Depression
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 44: Kathina Robe Offering</title>
-      <description>Kathina Robe Offering</description>
+      <description>Title: Kathina Robe Offering
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/44%20Kathina%20Robe%20Offering.mp3" length="64143869" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/44%20Kathina%20Robe%20Offering.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:54 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-44.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:06:48</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-44.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/44%20Kathina%20Robe%20Offering.mp3" type="audio/mpeg" fileSize="64143869" medium="audio"/>
+      <media:title>Episode 44: Kathina Robe Offering</media:title>
+      <media:description>Title: Kathina Robe Offering
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 45: Turtles all the Way Down</title>
-      <description>Turtles all the Way Down</description>
+      <description>Title: Turtles all the Way Down
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/45%20Turtles%20all%20the%20Way%20Down.mp3" length="79773772" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/45%20Turtles%20all%20the%20Way%20Down.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:56 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-45.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:23:04</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-45.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/45%20Turtles%20all%20the%20Way%20Down.mp3" type="audio/mpeg" fileSize="79773772" medium="audio"/>
+      <media:title>Episode 45: Turtles all the Way Down</media:title>
+      <media:description>Title: Turtles all the Way Down
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 46: The Buddha's stance on Suicide</title>
-      <description>The Buddha's stance on Suicide</description>
+      <description>Title: The Buddha's stance on Suicide
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/46%20The%20Buddha%27s%20stance%20on%20Suicide.mp3" length="57732218" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/46%20The%20Buddha%27s%20stance%20on%20Suicide.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:58 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-46.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:00:07</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-46.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/46%20The%20Buddha%27s%20stance%20on%20Suicide.mp3" type="audio/mpeg" fileSize="57732218" medium="audio"/>
+      <media:title>Episode 46: The Buddha's stance on Suicide</media:title>
+      <media:description>Title: The Buddha's stance on Suicide
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 47: Existential Foam ...</title>
-      <description>Existential Foam ...</description>
+      <description>Title: Existential Foam ...
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/47%20Existential%20Foam%20....mp3" length="77699620" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/47%20Existential%20Foam%20....mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:00 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-47.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>53:56</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-47.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/47%20Existential%20Foam%20....mp3" type="audio/mpeg" fileSize="77699620" medium="audio"/>
+      <media:title>Episode 47: Existential Foam ...</media:title>
+      <media:description>Title: Existential Foam ...
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 48: Nibbana Sweep</title>
-      <description>Nibbana Sweep</description>
+      <description>Title: Nibbana Sweep
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/48%20Nibbana%20Sweep.mp3" length="88260531" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/48%20Nibbana%20Sweep.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:03 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-48.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:01:16</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-48.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/48%20Nibbana%20Sweep.mp3" type="audio/mpeg" fileSize="88260531" medium="audio"/>
+      <media:title>Episode 48: Nibbana Sweep</media:title>
+      <media:description>Title: Nibbana Sweep
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 49: Who ordered this</title>
-      <description>Who ordered this</description>
+      <description>Title: Who ordered this
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/49%20Who%20ordered%20this.mp3" length="57601848" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/49%20Who%20ordered%20this.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:05 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-49.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>59:59</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-49.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/49%20Who%20ordered%20this.mp3" type="audio/mpeg" fileSize="57601848" medium="audio"/>
+      <media:title>Episode 49: Who ordered this</media:title>
+      <media:description>Title: Who ordered this
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 50: What is Sexual Abuse</title>
-      <description>What is Sexual Abuse</description>
+      <description>Title: What is Sexual Abuse
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/50%20What%20is%20Sexual%20Abuse.mp3" length="85788586" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/50%20What%20is%20Sexual%20Abuse.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:07 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-50.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>59:33</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-50.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/50%20What%20is%20Sexual%20Abuse.mp3" type="audio/mpeg" fileSize="85788586" medium="audio"/>
+      <media:title>Episode 50: What is Sexual Abuse</media:title>
+      <media:description>Title: What is Sexual Abuse
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 51: The 6 Animals</title>
-      <description>The 6 Animals</description>
+      <description>Title: The 6 Animals
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/51%20The%206%20Animals.mp3" length="97035401" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/51%20The%206%20Animals.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:10 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-51.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:07:22</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-51.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/51%20The%206%20Animals.mp3" type="audio/mpeg" fileSize="97035401" medium="audio"/>
+      <media:title>Episode 51: The 6 Animals</media:title>
+      <media:description>Title: The 6 Animals
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 52: Desire Fire</title>
-      <description>Desire Fire</description>
+      <description>Title: Desire Fire
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/52%20Desire%20Fire.mp3" length="75809329" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/52%20Desire%20Fire.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:13 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-52.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>52:38</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-52.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/52%20Desire%20Fire.mp3" type="audio/mpeg" fileSize="75809329" medium="audio"/>
+      <media:title>Episode 52: Desire Fire</media:title>
+      <media:description>Title: Desire Fire
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 53: Guided Meditation on Anapana-Sati Breathing</title>
-      <description>Guided Meditation on Anapana-Sati Breathing</description>
+      <description>Title: Guided Meditation on Anapana-Sati Breathing
+Artist: Bhikkhu Samahita
+Album: Dhamma On Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/53%20Guided%20Meditation%20on%20Anapana-Sati%20Breathing.mp3" length="76046673" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/53%20Guided%20Meditation%20on%20Anapana-Sati%20Breathing.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:15 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-53.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:19:11</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-53.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/53%20Guided%20Meditation%20on%20Anapana-Sati%20Breathing.mp3" type="audio/mpeg" fileSize="76046673" medium="audio"/>
+      <media:title>Episode 53: Guided Meditation on Anapana-Sati Breathing</media:title>
+      <media:description>Title: Guided Meditation on Anapana-Sati Breathing
+Artist: Bhikkhu Samahita
+Album: Dhamma On Air</media:description>
     </item>
 
     <item>
       <title>Episode 54: The 2 Oxen</title>
-      <description>The 2 Oxen</description>
+      <description>Title: The 2 Oxen
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/54%20The%202%20Oxen.mp3" length="42632370" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/54%20The%202%20Oxen.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:16 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-54.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>44:23</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-54.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/54%20The%202%20Oxen.mp3" type="audio/mpeg" fileSize="42632370" medium="audio"/>
+      <media:title>Episode 54: The 2 Oxen</media:title>
+      <media:description>Title: The 2 Oxen
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 55: The Participatory Anthropic Principle</title>
-      <description>The Participatory Anthropic Principle</description>
+      <description>Title: The Participatory Anthropic Principle
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/55%20The%20Participatory%20Anthropic%20Principle.mp3" length="70172627" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/55%20The%20Participatory%20Anthropic%20Principle.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:19 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-55.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:13:04</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-55.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/55%20The%20Participatory%20Anthropic%20Principle.mp3" type="audio/mpeg" fileSize="70172627" medium="audio"/>
+      <media:title>Episode 55: The Participatory Anthropic Principle</media:title>
+      <media:description>Title: The Participatory Anthropic Principle
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 56: The Kammic Echo Valley</title>
-      <description>The Kammic Echo Valley</description>
+      <description>Title: The Kammic Echo Valley
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/56%20The%20Kammic%20Echo%20Valley.mp3" length="48961296" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/56%20The%20Kammic%20Echo%20Valley.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:20 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-56.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>50:58</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-56.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/56%20The%20Kammic%20Echo%20Valley.mp3" type="audio/mpeg" fileSize="48961296" medium="audio"/>
+      <media:title>Episode 56: The Kammic Echo Valley</media:title>
+      <media:description>Title: The Kammic Echo Valley
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 57: Parent's Praise ..</title>
-      <description>Parent's Praise ..</description>
+      <description>Title: Parent's Praise ..
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/57%20Parent%27s%20Praise%20...mp3" length="73578040" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/57%20Parent%27s%20Praise%20...mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:22 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-57.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>51:05</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-57.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/57%20Parent%27s%20Praise%20...mp3" type="audio/mpeg" fileSize="73578040" medium="audio"/>
+      <media:title>Episode 57: Parent's Praise ..</media:title>
+      <media:description>Title: Parent's Praise ..
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 58: Viking Dhamma 101A</title>
-      <description>Viking Dhamma 101A</description>
+      <description>Title: Viking Dhamma 101A
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/58%20Viking%20Dhamma%20101A.mp3" length="95446561" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/58%20Viking%20Dhamma%20101A.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:25 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-58.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:39:24</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-58.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/58%20Viking%20Dhamma%20101A.mp3" type="audio/mpeg" fileSize="95446561" medium="audio"/>
+      <media:title>Episode 58: Viking Dhamma 101A</media:title>
+      <media:description>Title: Viking Dhamma 101A
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 59: The Baited Hook</title>
-      <description>The Baited Hook</description>
+      <description>Title: The Baited Hook
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/59%20The%20Baited%20Hook.mp3" length="34520168" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/59%20The%20Baited%20Hook.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:26 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-59.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>35:56</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-59.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/59%20The%20Baited%20Hook.mp3" type="audio/mpeg" fileSize="34520168" medium="audio"/>
+      <media:title>Episode 59: The Baited Hook</media:title>
+      <media:description>Title: The Baited Hook
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 60: Relativity = Relational Reality</title>
-      <description>Relativity = Relational Reality</description>
+      <description>Title: Relativity = Relational Reality
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/60%20Relativity%20%3D%20Relational%20Reality.mp3" length="78362079" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/60%20Relativity%20%3D%20Relational%20Reality.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:29 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-60.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>54:24</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-60.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/60%20Relativity%20%3D%20Relational%20Reality.mp3" type="audio/mpeg" fileSize="78362079" medium="audio"/>
+      <media:title>Episode 60: Relativity = Relational Reality</media:title>
+      <media:description>Title: Relativity = Relational Reality
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 61: Quantum Buddhism 1</title>
-      <description>Quantum Buddhism 1</description>
+      <description>Title: Quantum Buddhism 1
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/61%20Quantum%20Buddhism%201.mp3" length="112978583" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/61%20Quantum%20Buddhism%201.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:32 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-61.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:18:26</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-61.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/61%20Quantum%20Buddhism%201.mp3" type="audio/mpeg" fileSize="112978583" medium="audio"/>
+      <media:title>Episode 61: Quantum Buddhism 1</media:title>
+      <media:description>Title: Quantum Buddhism 1
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 62: Quantum Buddhism 2 = The Great Smoky Dragon!</title>
-      <description>Quantum Buddhism 2 = The Great Smoky Dragon!</description>
+      <description>Title: Quantum Buddhism 2 = The Great Smoky Dragon!
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/62%20Quantum%20Buddhism%202%20%3D%20The%20Great%20Smoky%20Dragon%21.mp3" length="78861956" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/62%20Quantum%20Buddhism%202%20%3D%20The%20Great%20Smoky%20Dragon%21.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:35 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-62.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:22:07</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-62.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/62%20Quantum%20Buddhism%202%20%3D%20The%20Great%20Smoky%20Dragon%21.mp3" type="audio/mpeg" fileSize="78861956" medium="audio"/>
+      <media:title>Episode 62: Quantum Buddhism 2 = The Great Smoky Dragon!</media:title>
+      <media:description>Title: Quantum Buddhism 2 = The Great Smoky Dragon!
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 63: Meditation vs. Psychedelics</title>
-      <description>Meditation vs. Psychedelics</description>
+      <description>Title: Meditation vs. Psychedelics
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/63%20Meditation%20vs.%20Psychedelics.mp3" length="50439865" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/63%20Meditation%20vs.%20Psychedelics.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:36 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-63.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>52:31</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-63.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/63%20Meditation%20vs.%20Psychedelics.mp3" type="audio/mpeg" fileSize="50439865" medium="audio"/>
+      <media:title>Episode 63: Meditation vs. Psychedelics</media:title>
+      <media:description>Title: Meditation vs. Psychedelics
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 64: The Disciple of Right View</title>
-      <description>The Disciple of Right View</description>
+      <description>Title: The Disciple of Right View
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/64%20The%20Disciple%20of%20Right%20View.mp3" length="49144327" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/64%20The%20Disciple%20of%20Right%20View.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:38 GMT</pubDate>
+      <itunes:image href="https://www.antoniomagni.com/what-buddha-said/assets/images/samahita.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>51:11</itunes:duration>
+      <media:thumbnail url="https://www.antoniomagni.com/what-buddha-said/assets/images/samahita.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/64%20The%20Disciple%20of%20Right%20View.mp3" type="audio/mpeg" fileSize="49144327" medium="audio"/>
+      <media:title>Episode 64: The Disciple of Right View</media:title>
+      <media:description>Title: The Disciple of Right View
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 65: The Ocean of Right Motivation</title>
-      <description>The Ocean of Right Motivation</description>
+      <description>Title: The Ocean of Right Motivation
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/65%20The%20Ocean%20of%20Right%20Motivation.mp3" length="46491973" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/65%20The%20Ocean%20of%20Right%20Motivation.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:39 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-65.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>48:24</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-65.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/65%20The%20Ocean%20of%20Right%20Motivation.mp3" type="audio/mpeg" fileSize="46491973" medium="audio"/>
+      <media:title>Episode 65: The Ocean of Right Motivation</media:title>
+      <media:description>Title: The Ocean of Right Motivation
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 66: Right Speech</title>
-      <description>Right Speech</description>
+      <description>Title: Right Speech
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/66%20Right%20Speech.mp3" length="40802931" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/66%20Right%20Speech.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:40 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-66.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>42:29</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-66.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/66%20Right%20Speech.mp3" type="audio/mpeg" fileSize="40802931" medium="audio"/>
+      <media:title>Episode 66: Right Speech</media:title>
+      <media:description>Title: Right Speech
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 67: Feeding Right Action</title>
-      <description>Feeding Right Action</description>
+      <description>Title: Feeding Right Action
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/67%20Feeding%20Right%20Action.mp3" length="78756495" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/67%20Feeding%20Right%20Action.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:43 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-67.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:22:01</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-67.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/67%20Feeding%20Right%20Action.mp3" type="audio/mpeg" fileSize="78756495" medium="audio"/>
+      <media:title>Episode 67: Feeding Right Action</media:title>
+      <media:description>Title: Feeding Right Action
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 68: Right Livelihood</title>
-      <description>Right Livelihood</description>
+      <description>Title: Right Livelihood
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/68%20Right%20Livelihood.mp3" length="55835646" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/68%20Right%20Livelihood.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:44 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-68.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>58:08</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-68.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/68%20Right%20Livelihood.mp3" type="audio/mpeg" fileSize="55835646" medium="audio"/>
+      <media:title>Episode 68: Right Livelihood</media:title>
+      <media:description>Title: Right Livelihood
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 69: The Fire of Right Awareness</title>
-      <description>The Fire of Right Awareness</description>
+      <description>Title: The Fire of Right Awareness
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/69%20The%20Fire%20of%20Right%20Awareness.mp3" length="77347573" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/69%20The%20Fire%20of%20Right%20Awareness.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:47 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-69.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>53:42</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-69.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/69%20The%20Fire%20of%20Right%20Awareness.mp3" type="audio/mpeg" fileSize="77347573" medium="audio"/>
+      <media:title>Episode 69: The Fire of Right Awareness</media:title>
+      <media:description>Title: The Fire of Right Awareness
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 70: Absorbed into Right Concentration</title>
-      <description>Absorbed into Right Concentration</description>
+      <description>Title: Absorbed into Right Concentration
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/70%20Absorbed%20into%20Right%20Concentration.mp3" length="54570245" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/70%20Absorbed%20into%20Right%20Concentration.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:48 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-70.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>56:49</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-70.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/70%20Absorbed%20into%20Right%20Concentration.mp3" type="audio/mpeg" fileSize="54570245" medium="audio"/>
+      <media:title>Episode 70: Absorbed into Right Concentration</media:title>
+      <media:description>Title: Absorbed into Right Concentration
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 71: The Noble 8-Fold Way</title>
-      <description>The Noble 8-Fold Way</description>
+      <description>Title: The Noble 8-Fold Way
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/71%20The%20Noble%208-Fold%20Way.mp3" length="92453833" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/71%20The%20Noble%208-Fold%20Way.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:51 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-71.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:04:11</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-71.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/71%20The%20Noble%208-Fold%20Way.mp3" type="audio/mpeg" fileSize="92453833" medium="audio"/>
+      <media:title>Episode 71: The Noble 8-Fold Way</media:title>
+      <media:description>Title: The Noble 8-Fold Way
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 72: Floating in Jhāna</title>
-      <description>Floating in Jhāna</description>
+      <description>Title: Floating in Jhāna
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/72%20Floating%20in%20Jh%C4%81na.mp3" length="115206167" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/72%20Floating%20in%20Jh%C4%81na.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:55 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-72.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:19:59</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-72.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/72%20Floating%20in%20Jh%C4%81na.mp3" type="audio/mpeg" fileSize="115206167" medium="audio"/>
+      <media:title>Episode 72: Floating in Jhāna</media:title>
+      <media:description>Title: Floating in Jhāna
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 73: Delight versus Danger</title>
-      <description>Delight versus Danger</description>
+      <description>Title: Delight versus Danger
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/73%20Delight%20versus%20Danger.mp3" length="85924015" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/73%20Delight%20versus%20Danger.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:05:57 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-73.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>59:39</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-73.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/73%20Delight%20versus%20Danger.mp3" type="audio/mpeg" fileSize="85924015" medium="audio"/>
+      <media:title>Episode 73: Delight versus Danger</media:title>
+      <media:description>Title: Delight versus Danger
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 74: The Divine Dimension</title>
-      <description>The Divine Dimension</description>
+      <description>Title: The Divine Dimension
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/74%20The%20Divine%20Dimension.mp3" length="96444476" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/74%20The%20Divine%20Dimension.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:06:00 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-74.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:06:57</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-74.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/74%20The%20Divine%20Dimension.mp3" type="audio/mpeg" fileSize="96444476" medium="audio"/>
+      <media:title>Episode 74: The Divine Dimension</media:title>
+      <media:description>Title: The Divine Dimension
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 75: The Surge of Urge</title>
-      <description>The Surge of Urge</description>
+      <description>Title: The Surge of Urge
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/75%20The%20Surge%20of%20Urge.mp3" length="65857979" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/75%20The%20Surge%20of%20Urge.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:06:02 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-75.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>45:43</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-75.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/75%20The%20Surge%20of%20Urge.mp3" type="audio/mpeg" fileSize="65857979" medium="audio"/>
+      <media:title>Episode 75: The Surge of Urge</media:title>
+      <media:description>Title: The Surge of Urge
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 76: Taming the Horse ...</title>
-      <description>Taming the Horse ...</description>
+      <description>Title: Taming the Horse ...
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/76%20Taming%20the%20Horse%20....mp3" length="65971952" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/76%20Taming%20the%20Horse%20....mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:06:04 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-76.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>45:48</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-76.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/76%20Taming%20the%20Horse%20....mp3" type="audio/mpeg" fileSize="65971952" medium="audio"/>
+      <media:title>Episode 76: Taming the Horse ...</media:title>
+      <media:description>Title: Taming the Horse ...
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 77: The Transmigrating Field</title>
-      <description>The Transmigrating Field</description>
+      <description>Title: The Transmigrating Field
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/77%20The%20Transmigrating%20Field.mp3" length="84429772" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/77%20The%20Transmigrating%20Field.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:06:06 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-77.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>58:37</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-77.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/77%20The%20Transmigrating%20Field.mp3" type="audio/mpeg" fileSize="84429772" medium="audio"/>
+      <media:title>Episode 77: The Transmigrating Field</media:title>
+      <media:description>Title: The Transmigrating Field
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 78: Emptiness</title>
-      <description>Emptiness</description>
+      <description>Title: Emptiness
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/78%20Emptiness.mp3" length="78806181" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/78%20Emptiness.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:06:09 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-78.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>54:42</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-78.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/78%20Emptiness.mp3" type="audio/mpeg" fileSize="78806181" medium="audio"/>
+      <media:title>Episode 78: Emptiness</media:title>
+      <media:description>Title: Emptiness
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 79: The Empty Boat</title>
-      <description>The Empty Boat</description>
+      <description>Title: The Empty Boat
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/79%20The%20Empty%20Boat.mp3" length="67786686" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/79%20The%20Empty%20Boat.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:06:11 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-79.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>47:03</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-79.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/79%20The%20Empty%20Boat.mp3" type="audio/mpeg" fileSize="67786686" medium="audio"/>
+      <media:title>Episode 79: The Empty Boat</media:title>
+      <media:description>Title: The Empty Boat
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 80: Reincarnation Revisited</title>
-      <description>Reincarnation Revisited</description>
+      <description>Title: Reincarnation Revisited
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/80%20Reincarnation%20Revisited.mp3" length="108154784" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/80%20Reincarnation%20Revisited.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:06:14 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-80.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:15:05</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-80.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/80%20Reincarnation%20Revisited.mp3" type="audio/mpeg" fileSize="108154784" medium="audio"/>
+      <media:title>Episode 80: Reincarnation Revisited</media:title>
+      <media:description>Title: Reincarnation Revisited
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 81: Marijuana Addiction</title>
-      <description>Marijuana Addiction</description>
+      <description>Title: Marijuana Addiction
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/81%20Marijuana%20Addiction.mp3" length="70765286" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/81%20Marijuana%20Addiction.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:06:16 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-81.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>49:07</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-81.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/81%20Marijuana%20Addiction.mp3" type="audio/mpeg" fileSize="70765286" medium="audio"/>
+      <media:title>Episode 81: Marijuana Addiction</media:title>
+      <media:description>Title: Marijuana Addiction
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 82: The 7 Links to Awakening</title>
-      <description>The 7 Links to Awakening</description>
+      <description>Title: The 7 Links to Awakening
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/82%20The%207%20Links%20to%20Awakening.mp3" length="77782406" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/82%20The%207%20Links%20to%20Awakening.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:06:19 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-82.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>54:00</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-82.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/82%20The%207%20Links%20to%20Awakening.mp3" type="audio/mpeg" fileSize="77782406" medium="audio"/>
+      <media:title>Episode 82: The 7 Links to Awakening</media:title>
+      <media:description>Title: The 7 Links to Awakening
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 83: Dreaming ..</title>
-      <description>Dreaming ..</description>
+      <description>Title: Dreaming ..
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/83%20Dreaming%20...mp3" length="51077254" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/83%20Dreaming%20...mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:06:20 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-83.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>35:27</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-83.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/83%20Dreaming%20...mp3" type="audio/mpeg" fileSize="51077254" medium="audio"/>
+      <media:title>Episode 83: Dreaming ..</media:title>
+      <media:description>Title: Dreaming ..
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 84: Calm and Insight</title>
-      <description>Calm and Insight</description>
+      <description>Title: Calm and Insight
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/84%20Calm%20and%20Insight.mp3" length="48484888" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/84%20Calm%20and%20Insight.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:06:22 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-84.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>50:29</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-84.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/84%20Calm%20and%20Insight.mp3" type="audio/mpeg" fileSize="48484888" medium="audio"/>
+      <media:title>Episode 84: Calm and Insight</media:title>
+      <media:description>Title: Calm and Insight
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 85: Alone yet Free</title>
-      <description>Alone yet Free</description>
+      <description>Title: Alone yet Free
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/85%20Alone%20yet%20Free.mp3" length="54168434" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/85%20Alone%20yet%20Free.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:06:23 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-85.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>56:24</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-85.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/85%20Alone%20yet%20Free.mp3" type="audio/mpeg" fileSize="54168434" medium="audio"/>
+      <media:title>Episode 85: Alone yet Free</media:title>
+      <media:description>Title: Alone yet Free
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 86: The Cypress Hermitage</title>
-      <description>The Cypress Hermitage</description>
+      <description>Title: The Cypress Hermitage
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/86%20The%20Cypress%20Hermitage.mp3" length="47798455" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/86%20The%20Cypress%20Hermitage.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:06:25 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-86.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>49:46</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-86.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/86%20The%20Cypress%20Hermitage.mp3" type="audio/mpeg" fileSize="47798455" medium="audio"/>
+      <media:title>Episode 86: The Cypress Hermitage</media:title>
+      <media:description>Title: The Cypress Hermitage
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 87: Clustered Clinging</title>
-      <description>Clustered Clinging</description>
+      <description>Title: Clustered Clinging
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/87%20Clustered%20Clinging.mp3" length="56822019" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/87%20Clustered%20Clinging.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:06:26 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-87.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>59:10</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-87.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/87%20Clustered%20Clinging.mp3" type="audio/mpeg" fileSize="56822019" medium="audio"/>
+      <media:title>Episode 87: Clustered Clinging</media:title>
+      <media:description>Title: Clustered Clinging
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 88: Unconditional Love ..</title>
-      <description>Unconditional Love ..</description>
+      <description>Title: Unconditional Love ..
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/88%20Unconditional%20Love%20...mp3" length="57307941" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/88%20Unconditional%20Love%20...mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:06:28 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-88.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>59:40</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-88.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/88%20Unconditional%20Love%20...mp3" type="audio/mpeg" fileSize="57307941" medium="audio"/>
+      <media:title>Episode 88: Unconditional Love ..</media:title>
+      <media:description>Title: Unconditional Love ..
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 89: The Open Door ...</title>
-      <description>The Open Door ...</description>
+      <description>Title: The Open Door ...
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/89%20The%20Open%20Door%20....mp3" length="71420886" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/89%20The%20Open%20Door%20....mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:06:30 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-89.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:14:22</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-89.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/89%20The%20Open%20Door%20....mp3" type="audio/mpeg" fileSize="71420886" medium="audio"/>
+      <media:title>Episode 89: The Open Door ...</media:title>
+      <media:description>Title: The Open Door ...
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 90: Vegetarianism &amp; the 32 Marks of a Great Man</title>
-      <description>Vegetarianism &amp; the 32 Marks of a Great Man</description>
+      <description>Title: Vegetarianism &amp; the 32 Marks of a Great Man
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/90%20Vegetarianism%20%26%20the%2032%20Marks%20of%20a%20Great%20Man.mp3" length="55083623" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/90%20Vegetarianism%20%26%20the%2032%20Marks%20of%20a%20Great%20Man.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:06:32 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-90.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>57:21</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-90.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/90%20Vegetarianism%20%26%20the%2032%20Marks%20of%20a%20Great%20Man.mp3" type="audio/mpeg" fileSize="55083623" medium="audio"/>
+      <media:title>Episode 90: Vegetarianism &amp; the 32 Marks of a Great Man</media:title>
+      <media:description>Title: Vegetarianism &amp; the 32 Marks of a Great Man
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 91: The Divine Diet</title>
-      <description>The Divine Diet</description>
+      <description>Title: The Divine Diet
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/91%20The%20Divine%20Diet.mp3" length="54189466" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/91%20The%20Divine%20Diet.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:06:34 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-91.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>56:25</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-91.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/91%20The%20Divine%20Diet.mp3" type="audio/mpeg" fileSize="54189466" medium="audio"/>
+      <media:title>Episode 91: The Divine Diet</media:title>
+      <media:description>Title: The Divine Diet
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 92: The Mind~Brain Problem</title>
-      <description>The Mind~Brain Problem</description>
+      <description>Title: The Mind~Brain Problem
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/92%20The%20Mind~Brain%20Problem.mp3" length="70156317" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/92%20The%20Mind~Brain%20Problem.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:06:36 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-92.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:13:03</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-92.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/92%20The%20Mind~Brain%20Problem.mp3" type="audio/mpeg" fileSize="70156317" medium="audio"/>
+      <media:title>Episode 92: The Mind~Brain Problem</media:title>
+      <media:description>Title: The Mind~Brain Problem
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 93: The 7 Wings..</title>
-      <description>The 7 Wings..</description>
+      <description>Title: The 7 Wings..
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/93%20The%207%20Wings...mp3" length="57153948" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/93%20The%207%20Wings...mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:06:38 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-93.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>59:31</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-93.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/93%20The%207%20Wings...mp3" type="audio/mpeg" fileSize="57153948" medium="audio"/>
+      <media:title>Episode 93: The 7 Wings..</media:title>
+      <media:description>Title: The 7 Wings..
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 94: Jesus &amp; the Bag of Bones ..</title>
-      <description>Jesus &amp; the Bag of Bones ..</description>
+      <description>Title: Jesus &amp; the Bag of Bones ..
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/94%20Jesus%20%26%20the%20Bag%20of%20Bones%20...mp3" length="61772643" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/94%20Jesus%20%26%20the%20Bag%20of%20Bones%20...mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:06:39 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-94.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:04:19</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-94.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/94%20Jesus%20%26%20the%20Bag%20of%20Bones%20...mp3" type="audio/mpeg" fileSize="61772643" medium="audio"/>
+      <media:title>Episode 94: Jesus &amp; the Bag of Bones ..</media:title>
+      <media:description>Title: Jesus &amp; the Bag of Bones ..
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 95: The Blooming Mind ..</title>
-      <description>The Blooming Mind ..</description>
+      <description>Title: The Blooming Mind ..
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/95%20The%20Blooming%20Mind%20...mp3" length="43445861" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/95%20The%20Blooming%20Mind%20...mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:06:41 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-95.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>45:14</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-95.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/95%20The%20Blooming%20Mind%20...mp3" type="audio/mpeg" fileSize="43445861" medium="audio"/>
+      <media:title>Episode 95: The Blooming Mind ..</media:title>
+      <media:description>Title: The Blooming Mind ..
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 96: Stilling Genesis</title>
-      <description>Stilling Genesis</description>
+      <description>Title: Stilling Genesis
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/96%20Stilling%20Genesis.mp3" length="45589682" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/96%20Stilling%20Genesis.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:06:42 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-96.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>47:28</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-96.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/96%20Stilling%20Genesis.mp3" type="audio/mpeg" fileSize="45589682" medium="audio"/>
+      <media:title>Episode 96: Stilling Genesis</media:title>
+      <media:description>Title: Stilling Genesis
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 97: Nibbāna and Kamma</title>
-      <description>Nibbāna and Kamma</description>
+      <description>Title: Nibbāna and Kamma
+Artist: Bhikkhu Samahita
+Album: Dhamma On Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/97%20Nibb%C4%81na%20and%20Kamma.mp3" length="61867868" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/97%20Nibb%C4%81na%20and%20Kamma.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:06:44 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-97.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:04:25</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-97.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/97%20Nibb%C4%81na%20and%20Kamma.mp3" type="audio/mpeg" fileSize="61867868" medium="audio"/>
+      <media:title>Episode 97: Nibbāna and Kamma</media:title>
+      <media:description>Title: Nibbāna and Kamma
+Artist: Bhikkhu Samahita
+Album: Dhamma On Air</media:description>
     </item>
 
     <item>
       <title>Episode 98: Do or Die</title>
-      <description>Do or Die</description>
+      <description>Title: Do or Die
+Artist: Bhikkhu Samahita
+Album: Dhamma On Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/98%20Do%20or%20Die.mp3" length="56933976" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/98%20Do%20or%20Die.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:06:46 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-98.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>59:17</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-98.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/98%20Do%20or%20Die.mp3" type="audio/mpeg" fileSize="56933976" medium="audio"/>
+      <media:title>Episode 98: Do or Die</media:title>
+      <media:description>Title: Do or Die
+Artist: Bhikkhu Samahita
+Album: Dhamma On Air</media:description>
     </item>
 
     <item>
       <title>Episode 99: Worthy is Vesak</title>
-      <description>Worthy is Vesak</description>
+      <description>Title: Worthy is Vesak
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/99%20Worthy%20is%20Vesak.mp3" length="46739773" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/99%20Worthy%20is%20Vesak.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:06:47 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-99.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>48:39</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-99.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/99%20Worthy%20is%20Vesak.mp3" type="audio/mpeg" fileSize="46739773" medium="audio"/>
+      <media:title>Episode 99: Worthy is Vesak</media:title>
+      <media:description>Title: Worthy is Vesak
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 101: Urgency vs. Complacency</title>
-      <description>Urgency vs. Complacency</description>
+      <description>Title: Urgency vs. Complacency
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/101%20Urgency%20vs.%20Complacency.mp3" length="43945341" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/101%20Urgency%20vs.%20Complacency.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:00 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-101.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>45:45</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-101.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/101%20Urgency%20vs.%20Complacency.mp3" type="audio/mpeg" fileSize="43945341" medium="audio"/>
+      <media:title>Episode 101: Urgency vs. Complacency</media:title>
+      <media:description>Title: Urgency vs. Complacency
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 102: Past Life Remembrance</title>
-      <description>Past Life Remembrance</description>
+      <description>Title: Past Life Remembrance
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/102%20Past%20Life%20Remembrance.mp3" length="38725161" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/102%20Past%20Life%20Remembrance.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:01 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-102.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>40:19</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-102.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/102%20Past%20Life%20Remembrance.mp3" type="audio/mpeg" fileSize="38725161" medium="audio"/>
+      <media:title>Episode 102: Past Life Remembrance</media:title>
+      <media:description>Title: Past Life Remembrance
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 103: Divine Intervention</title>
-      <description>Divine Intervention</description>
+      <description>Title: Divine Intervention
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/103%20Divine%20Intervention.mp3" length="33785934" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/103%20Divine%20Intervention.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:02 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-103.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>35:10</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-103.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/103%20Divine%20Intervention.mp3" type="audio/mpeg" fileSize="33785934" medium="audio"/>
+      <media:title>Episode 103: Divine Intervention</media:title>
+      <media:description>Title: Divine Intervention
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 104: The 5 Clusters of Clinging</title>
-      <description>The 5 Clusters of Clinging</description>
+      <description>Title: The 5 Clusters of Clinging
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/104%20The%205%20Clusters%20of%20Clinging.mp3" length="46273313" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/104%20The%205%20Clusters%20of%20Clinging.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:03 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-104.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>48:10</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-104.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/104%20The%205%20Clusters%20of%20Clinging.mp3" type="audio/mpeg" fileSize="46273313" medium="audio"/>
+      <media:title>Episode 104: The 5 Clusters of Clinging</media:title>
+      <media:description>Title: The 5 Clusters of Clinging
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 105: Magical Powers</title>
-      <description>Magical Powers</description>
+      <description>Title: Magical Powers
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/105%20Magical%20Powers.mp3" length="47052605" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/105%20Magical%20Powers.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:05 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-105.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>48:59</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-105.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/105%20Magical%20Powers.mp3" type="audio/mpeg" fileSize="47052605" medium="audio"/>
+      <media:title>Episode 105: Magical Powers</media:title>
+      <media:description>Title: Magical Powers
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 106: Mind-Brooming</title>
-      <description>Mind-Brooming</description>
+      <description>Title: Mind-Brooming
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/106%20Mind-Brooming.mp3" length="50037909" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/106%20Mind-Brooming.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:06 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-106.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>52:06</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-106.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/106%20Mind-Brooming.mp3" type="audio/mpeg" fileSize="50037909" medium="audio"/>
+      <media:title>Episode 106: Mind-Brooming</media:title>
+      <media:description>Title: Mind-Brooming
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 107: Restless or Stressed</title>
-      <description>Restless or Stressed</description>
+      <description>Title: Restless or Stressed
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/107%20Restless%20or%20Stressed.mp3" length="40985495" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/107%20Restless%20or%20Stressed.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:07 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-107.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>42:40</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-107.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/107%20Restless%20or%20Stressed.mp3" type="audio/mpeg" fileSize="40985495" medium="audio"/>
+      <media:title>Episode 107: Restless or Stressed</media:title>
+      <media:description>Title: Restless or Stressed
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 108: Nibbana - the Highest Happiness</title>
-      <description>Nibbana - the Highest Happiness</description>
+      <description>Title: Nibbana - the Highest Happiness
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/108%20Nibbana%20-%20the%20Highest%20Happiness.mp3" length="61330465" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/108%20Nibbana%20-%20the%20Highest%20Happiness.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:09 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-108.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:03:52</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-108.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/108%20Nibbana%20-%20the%20Highest%20Happiness.mp3" type="audio/mpeg" fileSize="61330465" medium="audio"/>
+      <media:title>Episode 108: Nibbana - the Highest Happiness</media:title>
+      <media:description>Title: Nibbana - the Highest Happiness
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 109: Aware of Causation</title>
-      <description>Aware of Causation</description>
+      <description>Title: Aware of Causation
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/109%20Aware%20of%20Causation.mp3" length="41916865" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/109%20Aware%20of%20Causation.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:11 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-109.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>43:38</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-109.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/109%20Aware%20of%20Causation.mp3" type="audio/mpeg" fileSize="41916865" medium="audio"/>
+      <media:title>Episode 109: Aware of Causation</media:title>
+      <media:description>Title: Aware of Causation
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 110: Noble Speech</title>
-      <description>Noble Speech</description>
+      <description>Title: Noble Speech
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/110%20Noble%20Speech.mp3" length="37024025" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/110%20Noble%20Speech.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:13 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-110.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>38:33</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-110.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/110%20Noble%20Speech.mp3" type="audio/mpeg" fileSize="37024025" medium="audio"/>
+      <media:title>Episode 110: Noble Speech</media:title>
+      <media:description>Title: Noble Speech
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 111: No Self Emptiness</title>
-      <description>No Self Emptiness</description>
+      <description>Title: No Self Emptiness
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/111%20No%20Self%20Emptiness.mp3" length="39289993" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/111%20No%20Self%20Emptiness.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:14 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-111.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>40:54</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-111.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/111%20No%20Self%20Emptiness.mp3" type="audio/mpeg" fileSize="39289993" medium="audio"/>
+      <media:title>Episode 111: No Self Emptiness</media:title>
+      <media:description>Title: No Self Emptiness
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 112: The Real Love</title>
-      <description>The Real Love</description>
+      <description>Title: The Real Love
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/112%20The%20Real%20Love.mp3" length="47935593" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/112%20The%20Real%20Love.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:16 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-112.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>49:55</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-112.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/112%20The%20Real%20Love.mp3" type="audio/mpeg" fileSize="47935593" medium="audio"/>
+      <media:title>Episode 112: The Real Love</media:title>
+      <media:description>Title: The Real Love
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 113: Right Motivation</title>
-      <description>Right Motivation</description>
+      <description>Title: Right Motivation
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/113%20Right%20Motivation.mp3" length="33668165" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/113%20Right%20Motivation.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:17 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-113.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>35:02</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-113.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/113%20Right%20Motivation.mp3" type="audio/mpeg" fileSize="33668165" medium="audio"/>
+      <media:title>Episode 113: Right Motivation</media:title>
+      <media:description>Title: Right Motivation
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 114: Fearlessness</title>
-      <description>Fearlessness</description>
+      <description>Title: Fearlessness
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/114%20Fearlessness.mp3" length="45558561" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/114%20Fearlessness.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:18 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-114.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>47:25</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-114.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/114%20Fearlessness.mp3" type="audio/mpeg" fileSize="45558561" medium="audio"/>
+      <media:title>Episode 114: Fearlessness</media:title>
+      <media:description>Title: Fearlessness
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 115: The Middle Way</title>
-      <description>The Middle Way</description>
+      <description>Title: The Middle Way
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/115%20The%20Middle%20Way.mp3" length="37832927" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/115%20The%20Middle%20Way.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:19 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-115.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>39:23</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-115.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/115%20The%20Middle%20Way.mp3" type="audio/mpeg" fileSize="37832927" medium="audio"/>
+      <media:title>Episode 115: The Middle Way</media:title>
+      <media:description>Title: The Middle Way
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 116: Naughty Children..</title>
-      <description>Naughty Children..</description>
+      <description>Title: Naughty Children..
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/116%20Naughty%20Children...mp3" length="40036134" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/116%20Naughty%20Children...mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:21 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-116.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>41:41</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-116.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/116%20Naughty%20Children...mp3" type="audio/mpeg" fileSize="40036134" medium="audio"/>
+      <media:title>Episode 116: Naughty Children..</media:title>
+      <media:description>Title: Naughty Children..
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 117: Free of Trace</title>
-      <description>Free of Trace</description>
+      <description>Title: Free of Trace
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/117%20Free%20of%20Trace.mp3" length="56830978" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/117%20Free%20of%20Trace.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:23 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-117.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>59:10</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-117.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/117%20Free%20of%20Trace.mp3" type="audio/mpeg" fileSize="56830978" medium="audio"/>
+      <media:title>Episode 117: Free of Trace</media:title>
+      <media:description>Title: Free of Trace
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 118: Disentangling</title>
-      <description>Disentangling</description>
+      <description>Title: Disentangling
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/118%20Disentangling.mp3" length="61612938" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/118%20Disentangling.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:24 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-118.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:04:09</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-118.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/118%20Disentangling.mp3" type="audio/mpeg" fileSize="61612938" medium="audio"/>
+      <media:title>Episode 118: Disentangling</media:title>
+      <media:description>Title: Disentangling
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 119: Early Buddhism Quantum Physics  Relativity</title>
-      <description>Early Buddhism Quantum Physics  Relativity</description>
+      <description>Title: Early Buddhism Quantum Physics  Relativity
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/119%20Early%20Buddhism%20Quantum%20Physics%20%20Relativity.mp3" length="142415436" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/119%20Early%20Buddhism%20Quantum%20Physics%20%20Relativity.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:29 GMT</pubDate>
+      <itunes:image href="https://www.antoniomagni.com/what-buddha-said/assets/images/samahita.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:38:53</itunes:duration>
+      <media:thumbnail url="https://www.antoniomagni.com/what-buddha-said/assets/images/samahita.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/119%20Early%20Buddhism%20Quantum%20Physics%20%20Relativity.mp3" type="audio/mpeg" fileSize="142415436" medium="audio"/>
+      <media:title>Episode 119: Early Buddhism Quantum Physics  Relativity</media:title>
+      <media:description>Title: Early Buddhism Quantum Physics  Relativity
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 120: The 2 Kinds of Desire</title>
-      <description>The 2 Kinds of Desire</description>
+      <description>Title: The 2 Kinds of Desire
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/120%20The%202%20Kinds%20of%20Desire.mp3" length="35695372" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/120%20The%202%20Kinds%20of%20Desire.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:31 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-120.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>37:10</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-120.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/120%20The%202%20Kinds%20of%20Desire.mp3" type="audio/mpeg" fileSize="35695372" medium="audio"/>
+      <media:title>Episode 120: The 2 Kinds of Desire</media:title>
+      <media:description>Title: The 2 Kinds of Desire
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 121: Ānāpānasati Breathing Meditation</title>
-      <description>Ānāpānasati Breathing Meditation</description>
+      <description>Title: Ānāpānasati Breathing Meditation
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/121%20%C4%80n%C4%81p%C4%81nasati%20Breathing%20Meditation.mp3" length="146398166" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/121%20%C4%80n%C4%81p%C4%81nasati%20Breathing%20Meditation.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:36 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-121.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>2:32:29</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-121.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/121%20%C4%80n%C4%81p%C4%81nasati%20Breathing%20Meditation.mp3" type="audio/mpeg" fileSize="146398166" medium="audio"/>
+      <media:title>Episode 121: Ānāpānasati Breathing Meditation</media:title>
+      <media:description>Title: Ānāpānasati Breathing Meditation
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 122: Voidness ..</title>
-      <description>Voidness ..</description>
+      <description>Title: Voidness ..
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/122%20Voidness%20...mp3" length="26840868" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/122%20Voidness%20...mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:36 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-122.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>27:57</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-122.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/122%20Voidness%20...mp3" type="audio/mpeg" fileSize="26840868" medium="audio"/>
+      <media:title>Episode 122: Voidness ..</media:title>
+      <media:description>Title: Voidness ..
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 123: The 24 Buddhas</title>
-      <description>The 24 Buddhas</description>
+      <description>Title: The 24 Buddhas
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/123%20The%2024%20Buddhas.mp3" length="35938994" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/123%20The%2024%20Buddhas.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:37 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-123.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>37:24</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-123.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/123%20The%2024%20Buddhas.mp3" type="audio/mpeg" fileSize="35938994" medium="audio"/>
+      <media:title>Episode 123: The 24 Buddhas</media:title>
+      <media:description>Title: The 24 Buddhas
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 124: Contentment &amp; Gratitude</title>
-      <description>Contentment &amp; Gratitude</description>
+      <description>Title: Contentment &amp; Gratitude
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/124%20Contentment%20%26%20Gratitude.mp3" length="55305328" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/124%20Contentment%20%26%20Gratitude.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:39 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-124.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>57:35</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-124.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/124%20Contentment%20%26%20Gratitude.mp3" type="audio/mpeg" fileSize="55305328" medium="audio"/>
+      <media:title>Episode 124: Contentment &amp; Gratitude</media:title>
+      <media:description>Title: Contentment &amp; Gratitude
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 125: Artificial intelligence</title>
-      <description>Artificial intelligence</description>
+      <description>Title: Artificial intelligence
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/125%20Artificial%20intelligence.mp3" length="77741276" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/125%20Artificial%20intelligence.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:42 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-125.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:20:57</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-125.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/125%20Artificial%20intelligence.mp3" type="audio/mpeg" fileSize="77741276" medium="audio"/>
+      <media:title>Episode 125: Artificial intelligence</media:title>
+      <media:description>Title: Artificial intelligence
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 126: Modern Buddhism</title>
-      <description>Modern Buddhism</description>
+      <description>Title: Modern Buddhism
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/126%20Modern%20Buddhism.mp3" length="50214467" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/126%20Modern%20Buddhism.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:43 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-126.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>52:17</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-126.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/126%20Modern%20Buddhism.mp3" type="audio/mpeg" fileSize="50214467" medium="audio"/>
+      <media:title>Episode 126: Modern Buddhism</media:title>
+      <media:description>Title: Modern Buddhism
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 127: Without Self ..</title>
-      <description>Without Self ..</description>
+      <description>Title: Without Self ..
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/127%20Without%20Self%20...mp3" length="57926769" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/127%20Without%20Self%20...mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:45 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-127.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:00:19</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-127.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/127%20Without%20Self%20...mp3" type="audio/mpeg" fileSize="57926769" medium="audio"/>
+      <media:title>Episode 127: Without Self ..</media:title>
+      <media:description>Title: Without Self ..
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 128: Dependent Origination (Paticca Samuppāda)</title>
-      <description>Dependent Origination (Paticca Samuppāda)</description>
+      <description>Title: Dependent Origination (Paticca Samuppāda)
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/128%20Dependent%20Origination%20%28Paticca%20Samupp%C4%81da%29.mp3" length="71681503" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/128%20Dependent%20Origination%20%28Paticca%20Samupp%C4%81da%29.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:47 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-128.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:14:39</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-128.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/128%20Dependent%20Origination%20%28Paticca%20Samupp%C4%81da%29.mp3" type="audio/mpeg" fileSize="71681503" medium="audio"/>
+      <media:title>Episode 128: Dependent Origination (Paticca Samuppāda)</media:title>
+      <media:description>Title: Dependent Origination (Paticca Samuppāda)
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 129: Rebirth Linking</title>
-      <description>Rebirth Linking</description>
+      <description>Title: Rebirth Linking
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/129%20Rebirth%20Linking.mp3" length="59498994" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/129%20Rebirth%20Linking.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:49 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-129.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:01:57</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-129.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/129%20Rebirth%20Linking.mp3" type="audio/mpeg" fileSize="59498994" medium="audio"/>
+      <media:title>Episode 129: Rebirth Linking</media:title>
+      <media:description>Title: Rebirth Linking
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 130: Emotional Karma</title>
-      <description>Emotional Karma</description>
+      <description>Title: Emotional Karma
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/130%20Emotional%20Karma.mp3" length="71866132" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/130%20Emotional%20Karma.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:52 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-130.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:14:50</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-130.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/130%20Emotional%20Karma.mp3" type="audio/mpeg" fileSize="71866132" medium="audio"/>
+      <media:title>Episode 130: Emotional Karma</media:title>
+      <media:description>Title: Emotional Karma
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 131: The Noble Life</title>
-      <description>The Noble Life</description>
+      <description>Title: The Noble Life
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/131%20The%20Noble%20Life.mp3" length="63684691" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/131%20The%20Noble%20Life.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:54 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-131.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:06:19</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-131.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/131%20The%20Noble%20Life.mp3" type="audio/mpeg" fileSize="63684691" medium="audio"/>
+      <media:title>Episode 131: The Noble Life</media:title>
+      <media:description>Title: The Noble Life
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 132: Withdrawal Wins</title>
-      <description>Withdrawal Wins</description>
+      <description>Title: Withdrawal Wins
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/132%20Withdrawal%20Wins.mp3" length="60691811" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/132%20Withdrawal%20Wins.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:56 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-132.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:03:11</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-132.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/132%20Withdrawal%20Wins.mp3" type="audio/mpeg" fileSize="60691811" medium="audio"/>
+      <media:title>Episode 132: Withdrawal Wins</media:title>
+      <media:description>Title: Withdrawal Wins
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 133: Establishing Awareness</title>
-      <description>Establishing Awareness</description>
+      <description>Title: Establishing Awareness
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/133%20Establishing%20Awareness.mp3" length="66168601" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/133%20Establishing%20Awareness.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:58 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-133.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:08:54</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-133.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/133%20Establishing%20Awareness.mp3" type="audio/mpeg" fileSize="66168601" medium="audio"/>
+      <media:title>Episode 133: Establishing Awareness</media:title>
+      <media:description>Title: Establishing Awareness
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 134: The 4 Noble Truths</title>
-      <description>The 4 Noble Truths</description>
+      <description>Title: The 4 Noble Truths
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/134%20The%204%20Noble%20Truths.mp3" length="50405551" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/134%20The%204%20Noble%20Truths.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:03:59 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-134.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>52:29</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-134.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/134%20The%204%20Noble%20Truths.mp3" type="audio/mpeg" fileSize="50405551" medium="audio"/>
+      <media:title>Episode 134: The 4 Noble Truths</media:title>
+      <media:description>Title: The 4 Noble Truths
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 135: The Noble Way</title>
-      <description>The Noble Way</description>
+      <description>Title: The Noble Way
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/135%20The%20Noble%20Way.mp3" length="56720177" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/135%20The%20Noble%20Way.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:01 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-135.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>59:03</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-135.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/135%20The%20Noble%20Way.mp3" type="audio/mpeg" fileSize="56720177" medium="audio"/>
+      <media:title>Episode 135: The Noble Way</media:title>
+      <media:description>Title: The Noble Way
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 136: All-Encompassing ..</title>
-      <description>All-Encompassing ..</description>
+      <description>Title: All-Encompassing ..
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/136%20All-Encompassing%20...mp3" length="55452284" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/136%20All-Encompassing%20...mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:03 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-136.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>57:45</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-136.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/136%20All-Encompassing%20...mp3" type="audio/mpeg" fileSize="55452284" medium="audio"/>
+      <media:title>Episode 136: All-Encompassing ..</media:title>
+      <media:description>Title: All-Encompassing ..
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
 
     <item>
       <title>Episode 137: Buddhist Intuition</title>
-      <description>Buddhist Intuition</description>
+      <description>Title: Buddhist Intuition
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/137%20Buddhist%20Intuition.mp3" length="30734497" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/137%20Buddhist%20Intuition.mp3</guid>
-      <pubDate>Fri, 04 Jul 2025 00:18:38 GMT</pubDate>
+      <pubDate>Mon, 26 Aug 2024 20:04:04 GMT</pubDate>
+      <itunes:image href="/assets/images/episode_artwork/cover-137.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>31:59</itunes:duration>
+      <media:thumbnail url="/assets/images/episode_artwork/cover-137.jpg"/>
+      <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/137%20Buddhist%20Intuition.mp3" type="audio/mpeg" fileSize="30734497" medium="audio"/>
+      <media:title>Episode 137: Buddhist Intuition</media:title>
+      <media:description>Title: Buddhist Intuition
+Artist: Bhikkhu Samahita
+Album: Dhamma on Air</media:description>
     </item>
-
   </channel>
 </rss>

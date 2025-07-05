@@ -26,13 +26,15 @@ logging.basicConfig(level=logging.INFO,
 logger = logging.getLogger(__name__)
 
 # CONFIGURATION
-MEDIA_BASE_URL = "https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/"
+MEDIA_BASE_URL = "https://pod.afm.co/Bhikku_Samahita/DhammaOnAir"
 FEED_BASE_URL = "https://www.antoniomagni.com/what-buddha-said"
 PODCAST_TITLE = "Dhamma on Air"
-AUTHOR = "Bikkhu Samahita"
+AUTHOR = "Samahita Thera"
 DESCRIPTION = "A collection of Buddhist-themed audio episodes."
 COVER_IMAGE = f"{FEED_BASE_URL}/assets/images/samahita_cartoon.jpg"
-EPISODE_ARTWORK_URL = f"{FEED_BASE_URL}/podcasts/dhamma_on_air/episode_artwork/"
+EPISODE_ARTWORK_URL = f"{MEDIA_BASE_URL}/episode_artwork/"
+ARTWORK_SIZE = 3000  # Size for episode artwork in pixels. Apple Podcasts requires at least 1400x1400, but recommends 3000x3000 for best quality.
+
 
 # Fixed episode dates (episode number: YYYY-MM-DD)
 FIXED_EPISODE_DATES = {
@@ -49,7 +51,7 @@ PODCAST_CATEGORIES = [
     # Add more categories/subcategories as needed
 ]
 COPYRIGHT = "No Copyright. Free to share and use."
-OWNER_NAME = "Bikkhu Samahita"
+OWNER_NAME = "Toni Magni"
 # Change to a real email if desired
 OWNER_EMAIL = "what-buddha-said-net@antoniomagni.com"
 
@@ -328,11 +330,11 @@ def generate_rss_feed(base_url, cover_image, episode_infos, audio_dir, episode_a
                 # Extract artwork
                 for tag in audio.tags.values():
                     if isinstance(tag, APIC):
-                        # Convert and pad to 1500x1500 JPEG with max compression
+                        # Convert and pad to ARTWORK_SIZExARTWORK_SIZE JPEG with max compression
                         if overwrite_artwork or not os.path.exists(episode_artwork_path):
                             img = Image.open(BytesIO(tag.data)).convert("RGB")
                             img_padded = ImageOps.pad(
-                                img, (1500, 1500), color=(0, 0, 0), centering=(0.5, 0.5))
+                                img, (ARTWORK_SIZE, ARTWORK_SIZE), color=(0, 0, 0), centering=(0.5, 0.5))
                             img_padded.save(
                                 episode_artwork_path,
                                 "JPEG",

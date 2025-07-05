@@ -16,10 +16,12 @@ from urllib.parse import quote
 from xml.sax.saxutils import escape
 from mutagen.mp3 import MP3
 from mutagen.id3 import ID3, APIC
-from PIL import Image
+from PIL import Image, ImageOps
+from tqdm import tqdm
 
 # Set up logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 # CONFIGURATION
@@ -40,6 +42,7 @@ FIXED_EPISODE_DATES = {
     54: "2017-01-19",
     98: "2018-04-15",
 }
+
 
 def generate_rss_header(base_url, cover_image):
     return f"""<?xml version="1.0" encoding="UTF-8"?>
@@ -62,8 +65,10 @@ def generate_rss_header(base_url, cover_image):
     </image>
 """
 
+
 def generate_rss_footer():
     return "  </channel>\n</rss>\n"
+
 
 def generate_episode_item(
     ep_num, title_raw, description, base_url, encoded_filename, file_size,
@@ -98,6 +103,7 @@ def generate_episode_item(
     </item>
 """
 
+
 def get_mp3_duration(filepath):
     try:
         audio = MP3(filepath)
@@ -111,6 +117,7 @@ def get_mp3_duration(filepath):
             return f"{m}:{s:02}"
     except Exception:
         return None
+
 
 def extract_id3_description(audio):
     """Extract a detailed description from all available ID3 tags."""
@@ -150,6 +157,7 @@ def extract_id3_description(audio):
     # Join all lines
     return "\n".join(lines) if lines else None
 
+
 def extract_id3_title_and_track(audio):
     """Extract title and track number from ID3 tags."""
     title = None
@@ -164,9 +172,11 @@ def extract_id3_title_and_track(audio):
             track = str(trck.text[0]).split('/')[0]
     return title, track
 
+
 def parse_fixed_dates():
     # Convert to {ep_num: datetime}
     return {ep: datetime.strptime(date, "%Y-%m-%d") for ep, date in FIXED_EPISODE_DATES.items()}
+
 
 def interpolate_dates(episode_numbers):
     """
@@ -207,7 +217,8 @@ def interpolate_dates(episode_numbers):
                 interp_date = prev[1]
             else:
                 days_per_ep = day_span / ep_span
-                interp_date = prev[1] + timedelta(days=(ep - prev[0]) * days_per_ep)
+                interp_date = prev[1] + \
+                    timedelta(days=(ep - prev[0]) * days_per_ep)
             result[ep] = interp_date
         elif prev and not next_:
             # Extrapolate forward
@@ -223,7 +234,8 @@ def interpolate_dates(episode_numbers):
                 days_per_ep = day_span / ep_span if ep_span else 7
             else:
                 days_per_ep = 7  # fallback
-            interp_date = prev[1] + timedelta(days=(ep - prev[0]) * days_per_ep)
+            interp_date = prev[1] + \
+                timedelta(days=(ep - prev[0]) * days_per_ep)
             result[ep] = interp_date
         elif next_ and not prev:
             # Extrapolate backward
@@ -239,12 +251,14 @@ def interpolate_dates(episode_numbers):
                 days_per_ep = day_span / ep_span if ep_span else 7
             else:
                 days_per_ep = 7  # fallback
-            interp_date = next_[1] - timedelta(days=(next_[0] - ep) * days_per_ep)
+            interp_date = next_[1] - \
+                timedelta(days=(next_[0] - ep) * days_per_ep)
             result[ep] = interp_date
         else:
             # Should not happen, fallback to today
             result[ep] = datetime.utcnow()
     return result
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -274,12 +288,19 @@ def main():
         help="Subdirectory for episode artwork (default: episode_artwork under audio_dir)",
         default=None
     )
+    parser.add_argument(
+        "--overwrite-artwork",
+        action="store_true",
+        help="Overwrite existing episode artwork PNG files."
+    )
     args = parser.parse_args()
 
     audio_dir = args.audio_dir
-    base_url = args.base_url if args.base_url.endswith('/') else args.base_url + '/'
+    base_url = args.base_url if args.base_url.endswith(
+        '/') else args.base_url + '/'
     cover_image = args.cover_image
-    episode_artwork_dir = args.artwork_dir or os.path.join(audio_dir, "episode_artwork")
+    episode_artwork_dir = args.artwork_dir or os.path.join(
+        audio_dir, "episode_artwork")
 
     # List all .mp3 files in the directory
     try:
@@ -310,9 +331,11 @@ def main():
                 # fallback: try to extract from filename
                 ep_match = re.match(r"(\d+)", filename)
                 if ep_match:
-                    episode_infos.append((int(ep_match.group(1)), id3_title, filename))
+                    episode_infos.append(
+                        (int(ep_match.group(1)), id3_title, filename))
         except Exception as e:
-            logger.warning(f"⚠️ Could not extract ID3 tags from {filename}: {e}")
+            logger.warning(
+                f"⚠️ Could not extract ID3 tags from {filename}: {e}")
             ep_match = re.match(r"(\d+)", filename)
             if ep_match:
                 episode_infos.append((int(ep_match.group(1)), None, filename))
@@ -325,7 +348,7 @@ def main():
     ep_dates = interpolate_dates(episode_numbers)
 
     rss_feed = generate_rss_header(base_url, cover_image)
-    for ep_num_int, id3_title, filename in episode_infos:
+    for ep_num_int, id3_title, filename in tqdm(episode_infos, desc="Processing episodes"):
         ep_num = str(ep_num_int).zfill(2)
         full_path = os.path.join(audio_dir, filename)
 
@@ -334,8 +357,9 @@ def main():
 
         description = title_raw  # fallback
         has_episode_artwork = False
-        episode_artwork_filename = f"cover-{ep_num}.png"
-        episode_artwork_path = os.path.join(episode_artwork_dir, episode_artwork_filename)
+        episode_artwork_filename = f"cover-{ep_num}.jpg"
+        episode_artwork_path = os.path.join(
+            episode_artwork_dir, episode_artwork_filename)
         EPISODE_ARTWORK_URL_full = EPISODE_ARTWORK_URL + episode_artwork_filename
 
         try:
@@ -344,18 +368,18 @@ def main():
                 # Extract artwork
                 for tag in audio.tags.values():
                     if isinstance(tag, APIC):
-                        # Convert and pad to 1500x1500 PNG with transparency
-                        if not os.path.exists(episode_artwork_path):
-                            img = Image.open(BytesIO(tag.data)).convert("RGBA")
-                            w, h = img.size
-                            scale = min(1500 / w, 1500 / h)
-                            new_w, new_h = int(w * scale), int(h * scale)
-                            img_resized = img.resize((new_w, new_h), Image.LANCZOS)
-                            out_img = Image.new("RGBA", (1500, 1500), (0, 0, 0, 0))
-                            paste_x = (1500 - new_w) // 2
-                            paste_y = (1500 - new_h) // 2
-                            out_img.paste(img_resized, (paste_x, paste_y), img_resized)
-                            out_img.save(episode_artwork_path, "PNG")
+                        # Convert and pad to 1500x1500 JPEG with max compression
+                        if args.overwrite_artwork or not os.path.exists(episode_artwork_path):
+                            img = Image.open(BytesIO(tag.data)).convert("RGB")
+                            img_padded = ImageOps.pad(
+                                img, (1500, 1500), color=(0, 0, 0), centering=(0.5, 0.5))
+                            img_padded.save(
+                                episode_artwork_path,
+                                "JPEG",
+                                quality=85,  # 85 is usually visually lossless, but you can lower for more compression
+                                optimize=True,
+                                progressive=True
+                            )
                         has_episode_artwork = True
                         break
                 # Extract description
@@ -363,7 +387,8 @@ def main():
                 if id3_desc:
                     description = id3_desc
         except Exception as e:
-            logger.warning(f"⚠️ Could not extract ID3 tags from {filename}: {e}")
+            logger.warning(
+                f"⚠️ Could not extract ID3 tags from {filename}: {e}")
 
         try:
             file_size = os.path.getsize(full_path)
@@ -378,7 +403,8 @@ def main():
 
         # Use interpolated date
         pub_date_dt = ep_dates.get(ep_num_int)
-        pub_date = formatdate(timeval=pub_date_dt.timestamp(), localtime=False, usegmt=True) if pub_date_dt else formatdate(timeval=None, localtime=False, usegmt=True)
+        pub_date = formatdate(timeval=pub_date_dt.timestamp(
+        ), localtime=False, usegmt=True) if pub_date_dt else formatdate(timeval=None, localtime=False, usegmt=True)
 
         encoded_filename = quote(filename)
         itunes_image_url = EPISODE_ARTWORK_URL_full if has_episode_artwork else cover_image
@@ -398,6 +424,7 @@ def main():
         logger.info(f"✅ RSS feed written to: {args.output}")
     else:
         print(rss_feed)
+
 
 def parse_args():
     parser = argparse.ArgumentParser(
@@ -428,6 +455,7 @@ def parse_args():
         default=None
     )
     return parser.parse_args()
+
 
 if __name__ == "__main__":
     main()

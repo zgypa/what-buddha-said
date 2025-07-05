@@ -54,42 +54,6 @@ OWNER_NAME = "Bikkhu Samahita"
 OWNER_EMAIL = "what-buddha-said-net@antoniomagni.com"
 
 
-def generate_episode_item(
-    ep_num, title_raw, description, base_url, encoded_filename, file_size,
-    pub_date, itunes_image_url, explicit, duration=None
-):
-    item = ET.Element('item')
-    ET.SubElement(item, 'title').text = f"Episode {ep_num}: {title_raw}"
-    ET.SubElement(item, 'link').text = f"{base_url}{encoded_filename}"
-    ET.SubElement(item, 'description').text = description
-    enclosure = ET.SubElement(item, 'enclosure', {
-        'url': f"{base_url}{encoded_filename}",
-        'length': str(file_size),
-        'type': "audio/mpeg"
-    })
-    ET.SubElement(item, 'guid').text = f"{base_url}{encoded_filename}"
-    ET.SubElement(item, 'pubDate').text = pub_date
-    ET.SubElement(item, 'itunes:image', {'href': itunes_image_url})
-    ET.SubElement(item, 'itunes:explicit').text = explicit
-    if duration:
-        ET.SubElement(item, 'itunes:duration').text = duration
-    media_thumbnail = ET.SubElement(item, 'media:thumbnail', {
-        'url': itunes_image_url
-    })
-    media_content = ET.SubElement(item, 'media:content', {
-        'url': f"{base_url}{encoded_filename}",
-        'type': "audio/mpeg",
-        'fileSize': str(file_size),
-        'medium': "audio"
-    })
-    media_title = ET.SubElement(item, 'media:title')
-    media_title.text = f"Episode {ep_num}: {title_raw}"
-    media_description = ET.SubElement(item, 'media:description')
-    media_description.text = description
-
-    return item
-
-
 def get_mp3_duration(filepath):
     try:
         audio = MP3(filepath)
@@ -315,7 +279,7 @@ def generate_rss_feed(base_url, cover_image, episode_infos, audio_dir, episode_a
     })
     channel = ET.SubElement(rss, 'channel')
     ET.SubElement(channel, 'title').text = PODCAST_TITLE
-    ET.SubElement(channel, 'link').text = base_url
+    ET.SubElement(channel, 'link').text = FEED_BASE_URL
     ET.SubElement(channel, 'description').text = DESCRIPTION
     ET.SubElement(channel, 'language').text = 'en-us'
     ET.SubElement(channel, 'itunes:author').text = AUTHOR
@@ -341,7 +305,7 @@ def generate_rss_feed(base_url, cover_image, episode_infos, audio_dir, episode_a
     image = ET.SubElement(channel, 'image')
     ET.SubElement(image, 'url').text = cover_image
     ET.SubElement(image, 'title').text = PODCAST_TITLE
-    ET.SubElement(image, 'link').text = base_url
+    ET.SubElement(image, 'link').text = FEED_BASE_URL
 
     # Add episodes as <item>
     for ep_num_int, id3_title, filename in tqdm(episode_infos, desc="Processing episodes"):
@@ -409,7 +373,7 @@ def generate_rss_feed(base_url, cover_image, episode_infos, audio_dir, episode_a
 
         item = ET.SubElement(channel, 'item')
         ET.SubElement(item, 'title').text = f"Episode {ep_num}: {title_raw}"
-        ET.SubElement(item, 'link').text = f"{base_url}{encoded_filename}"
+        ET.SubElement(item, 'link').text = FEED_BASE_URL
         ET.SubElement(item, 'description').text = description
         enclosure = ET.SubElement(item, 'enclosure', {
             'url': f"{base_url}{encoded_filename}",

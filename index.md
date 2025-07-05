@@ -16,7 +16,7 @@ However, not everything has gone lost: Even though all of his podcasts and video
 
 ## Podcast Feed
 
-I have extracted the audio from Bhikkhu Samahita's YouTube videos and created a podcast feed. The audio files are served from my personal home server for my own personal use, but anyone is free to subscribe to the feed here [{{ site.baseurl }}{% link podcasts/dhamma_on_air/feed.xml %}]({{ site.baseurl }}{% link podcasts/dhamma_on_air/feed.xml %}).
+I have extracted the audio from Bhikkhu Samahita's YouTube videos and re-created his podcast feed, which has gone lost (Soundcloud still has his account with the feed, but has only kept two episodes). The audio files are served from my personal home server for my own personal use, but anyone is free to subscribe to the feed here [{{ site.baseurl }}{% link podcasts/dhamma_on_air/feed.xml %}]({{ site.baseurl }}{% link podcasts/dhamma_on_air/feed.xml %}).
 
 Feel free to use this URL in your favorite podcast app.
 

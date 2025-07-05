@@ -389,19 +389,20 @@ def generate_rss_feed(base_url, cover_image, episode_infos, audio_dir, episode_a
         ET.SubElement(item, 'itunes:explicit').text = explicit
         if duration:
             ET.SubElement(item, 'itunes:duration').text = duration
-        media_thumbnail = ET.SubElement(item, 'media:thumbnail', {
-            'url': itunes_image_url
-        })
-        media_content = ET.SubElement(item, 'media:content', {
-            'url': f"{base_url}{encoded_filename}",
-            'type': "audio/mpeg",
-            'fileSize': str(file_size),
-            'medium': "audio"
-        })
-        media_title = ET.SubElement(item, 'media:title')
-        media_title.text = f"Episode {ep_num}: {title_raw}"
-        media_description = ET.SubElement(item, 'media:description')
-        media_description.text = description
+        # Keep this commented out for now, trying to remove media tags to see if this resolves issues with Apple Podcast not loading artwork of episode
+        # media_thumbnail = ET.SubElement(item, 'media:thumbnail', {
+        #     'url': itunes_image_url
+        # })
+        # media_content = ET.SubElement(item, 'media:content', {
+        #     'url': f"{base_url}{encoded_filename}",
+        #     'type': "audio/mpeg",
+        #     'fileSize': str(file_size),
+        #     'medium': "audio"
+        # })
+        # media_title = ET.SubElement(item, 'media:title')
+        # media_title.text = f"Episode {ep_num}: {title_raw}"
+        # media_description = ET.SubElement(item, 'media:description')
+        # media_description.text = description
 
     # Return pretty-printed XML string
     rss_feed = ET.tostring(rss, encoding='unicode', method='xml')

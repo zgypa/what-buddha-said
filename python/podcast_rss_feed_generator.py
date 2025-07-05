@@ -10,10 +10,11 @@ import logging
 import argparse
 from io import BytesIO
 from datetime import datetime, timedelta
+import xml.etree.ElementTree as ET
+import xml.dom.minidom
 
 from email.utils import formatdate
 from urllib.parse import quote
-from xml.sax.saxutils import escape
 from mutagen.mp3 import MP3
 from mutagen.id3 import ID3, APIC
 from PIL import Image, ImageOps
@@ -49,48 +50,48 @@ PODCAST_CATEGORIES = [
 ]
 COPYRIGHT = "No Copyright. Free to share and use."
 OWNER_NAME = "Bikkhu Samahita"
-OWNER_EMAIL = "what-buddha-said-net@antoniomagni.com"  # Change to a real email if desired
+# Change to a real email if desired
+OWNER_EMAIL = "what-buddha-said-net@antoniomagni.com"
 
 
 def generate_rss_header(base_url, cover_image):
-    # Build category tags
-    itunes_category_tags = ""
-    for cat, subcat in PODCAST_CATEGORIES:
-        cat_escaped = cat.replace("&", "&amp;")
-        subcat_escaped = subcat.replace("&", "&amp;") if subcat else None
-        if subcat:
-            itunes_category_tags += f'    <itunes:category text="{cat_escaped}">\n      <itunes:category text="{subcat_escaped}"/>\n    </itunes:category>\n'
-        else:
-            itunes_category_tags += f'    <itunes:category text="{cat_escaped}"/>\n'
-    # Add generic <category> for RSS readers
-    rss_category_tags = "".join(
-        [f'    <category>{cat.replace("&", "&amp;")}</category>\n' for cat, _ in PODCAST_CATEGORIES])
+    rss = ET.Element('rss', {
+        'version': '2.0',
+        'xmlns:itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd',
+        'xmlns:media': 'http://search.yahoo.com/mrss/'
+    })
+    channel = ET.SubElement(rss, 'channel')
+    ET.SubElement(channel, 'title').text = PODCAST_TITLE
+    ET.SubElement(channel, 'link').text = base_url
+    ET.SubElement(channel, 'description').text = DESCRIPTION
+    ET.SubElement(channel, 'language').text = 'en-us'
+    ET.SubElement(channel, 'itunes:author').text = AUTHOR
+    ET.SubElement(channel, 'itunes:image', {'href': cover_image})
+    ET.SubElement(channel, 'itunes:summary').text = DESCRIPTION
+    ET.SubElement(channel, 'itunes:explicit').text = 'false'
+    ET.SubElement(channel, 'itunes:type').text = 'episodic'
+    ET.SubElement(channel, 'copyright').text = COPYRIGHT
 
-    return f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-     xmlns:media="http://search.yahoo.com/mrss/">
-  <channel>
-    <title>{PODCAST_TITLE}</title>
-    <link>{base_url}</link>
-    <description>{DESCRIPTION}</description>
-    <language>en-us</language>
-    <itunes:author>{AUTHOR}</itunes:author>
-    <itunes:image href="{cover_image}"/>
-    <itunes:summary>{DESCRIPTION}</itunes:summary>
-    <itunes:explicit>false</itunes:explicit>
-    <itunes:type>episodic</itunes:type>
-    <copyright>{COPYRIGHT}</copyright>
-    <itunes:owner>
-      <itunes:name>{OWNER_NAME}</itunes:name>
-      <itunes:email>{OWNER_EMAIL}</itunes:email>
-    </itunes:owner>
-{itunes_category_tags}{rss_category_tags}    <image>
-      <url>{cover_image}</url>
-      <title>{PODCAST_TITLE}</title>
-      <link>{base_url}</link>
-    </image>
-"""
+    owner = ET.SubElement(channel, 'itunes:owner')
+    ET.SubElement(owner, 'itunes:name').text = OWNER_NAME
+    ET.SubElement(owner, 'itunes:email').text = OWNER_EMAIL
+
+    # Categories
+    for cat, subcat in PODCAST_CATEGORIES:
+        if subcat:
+            cat_el = ET.SubElement(channel, 'itunes:category', {'text': cat})
+            ET.SubElement(cat_el, 'itunes:category', {'text': subcat})
+        else:
+            ET.SubElement(channel, 'itunes:category', {'text': cat})
+        ET.SubElement(channel, 'category').text = cat
+
+    image = ET.SubElement(channel, 'image')
+    ET.SubElement(image, 'url').text = cover_image
+    ET.SubElement(image, 'title').text = PODCAST_TITLE
+    ET.SubElement(image, 'link').text = base_url
+
+    # Return pretty-printed XML string
+    return ET.tostring(rss, encoding='unicode', method='xml')
 
 
 def generate_rss_footer():
@@ -101,38 +102,36 @@ def generate_episode_item(
     ep_num, title_raw, description, base_url, encoded_filename, file_size,
     pub_date, itunes_image_url, explicit, duration=None
 ):
-    title = escape(f"Episode {ep_num}: {title_raw}")
-    description = escape(description)
-    # Build episode web page URL (fallback to audio file if no web page)
-    # You can customize this to point to a real episode page if available
-    episode_page_url = f"{base_url}{encoded_filename}"
-    # media:thumbnail and media:content for artwork and audio
-    media_thumbnail = f'<media:thumbnail url="{itunes_image_url}"/>'
-    media_content = (
-        f'<media:content url="{base_url}{encoded_filename}" type="audio/mpeg" fileSize="{file_size}" medium="audio"/>'
-    )
-    # media:title and media:description
-    media_title = f'<media:title>{title}</media:title>'
-    media_description = f'<media:description>{description}</media:description>'
-    # itunes:duration if available
-    itunes_duration = f"<itunes:duration>{duration}</itunes:duration>" if duration else ""
-    return f"""
-    <item>
-      <title>{title}</title>
-      <link>{episode_page_url}</link>
-      <description>{description}</description>
-      <enclosure url="{base_url}{encoded_filename}" length="{file_size}" type="audio/mpeg"/>
-      <guid>{base_url}{encoded_filename}</guid>
-      <pubDate>{pub_date}</pubDate>
-      <itunes:image href="{itunes_image_url}"/>
-      <itunes:explicit>{explicit}</itunes:explicit>
-      {itunes_duration}
-      {media_thumbnail}
-      {media_content}
-      {media_title}
-      {media_description}
-    </item>
-"""
+    item = ET.Element('item')
+    ET.SubElement(item, 'title').text = f"Episode {ep_num}: {title_raw}"
+    ET.SubElement(item, 'link').text = f"{base_url}{encoded_filename}"
+    ET.SubElement(item, 'description').text = description
+    enclosure = ET.SubElement(item, 'enclosure', {
+        'url': f"{base_url}{encoded_filename}",
+        'length': str(file_size),
+        'type': "audio/mpeg"
+    })
+    ET.SubElement(item, 'guid').text = f"{base_url}{encoded_filename}"
+    ET.SubElement(item, 'pubDate').text = pub_date
+    ET.SubElement(item, 'itunes:image', {'href': itunes_image_url})
+    ET.SubElement(item, 'itunes:explicit').text = explicit
+    if duration:
+        ET.SubElement(item, 'itunes:duration').text = duration
+    media_thumbnail = ET.SubElement(item, 'media:thumbnail', {
+        'url': itunes_image_url
+    })
+    media_content = ET.SubElement(item, 'media:content', {
+        'url': f"{base_url}{encoded_filename}",
+        'type': "audio/mpeg",
+        'fileSize': str(file_size),
+        'medium': "audio"
+    })
+    media_title = ET.SubElement(item, 'media:title')
+    media_title.text = f"Episode {ep_num}: {title_raw}"
+    media_description = ET.SubElement(item, 'media:description')
+    media_description.text = description
+
+    return item
 
 
 def get_mp3_duration(filepath):
@@ -291,64 +290,38 @@ def interpolate_dates(episode_numbers):
     return result
 
 
-def main():
-    parser = argparse.ArgumentParser(
-        description="Generate a podcast RSS feed from a directory of MP3 files."
-    )
-    parser.add_argument(
-        "audio_dir",
-        help="Directory containing MP3 files."
-    )
-    parser.add_argument(
-        "-o", "--output",
-        help="Output RSS XML filename. If not specified, prints to stdout.",
-        default=None
-    )
-    parser.add_argument(
-        "--base-url",
-        help="Base URL for enclosure links (default: %(default)s)",
-        default=MEDIA_BASE_URL
-    )
-    parser.add_argument(
-        "--cover-image",
-        help="Default podcast cover image URL (default: %(default)s)",
-        default=COVER_IMAGE
-    )
-    parser.add_argument(
-        "--artwork-dir",
-        help="Subdirectory for episode artwork (default: episode_artwork under audio_dir)",
-        default=None
-    )
-    parser.add_argument(
-        "--overwrite-artwork",
-        action="store_true",
-        help="Overwrite existing episode artwork PNG files."
-    )
-    args = parser.parse_args()
+def parse_args():
+    parser = argparse.ArgumentParser(description="Generate podcast RSS feed.")
+    parser.add_argument("audio_dir", help="Directory containing MP3 files.")
+    parser.add_argument("--base-url", default=MEDIA_BASE_URL,
+                        help="Base URL for media files.")
+    parser.add_argument("--cover-image", default=COVER_IMAGE,
+                        help="Podcast cover image URL.")
+    parser.add_argument("--artwork-dir", help="Directory for episode artwork.")
+    parser.add_argument("--overwrite-artwork", action="store_true",
+                        help="Overwrite existing episode artwork PNG files.")
+    parser.add_argument("--output", help="Path to output XML file (default: feed.xml in audio_dir)")
+    return parser.parse_args()
 
-    audio_dir = args.audio_dir
-    base_url = args.base_url if args.base_url.endswith(
-        '/') else args.base_url + '/'
-    cover_image = args.cover_image
-    episode_artwork_dir = args.artwork_dir or os.path.join(
-        audio_dir, "episode_artwork")
 
-    # List all .mp3 files in the directory
+def list_mp3_files(audio_dir):
     try:
         all_files = os.listdir(audio_dir)
     except FileNotFoundError:
         logger.error(f"❌ Directory not found: {audio_dir}")
         sys.exit(1)
-
     mp3_files = [f for f in all_files if f.lower().endswith(".mp3")]
     if not mp3_files:
         logger.error("❌ No MP3 files found in the directory.")
         sys.exit(1)
+    return mp3_files
 
-    # Ensure episode artwork directory exists
-    os.makedirs(episode_artwork_dir, exist_ok=True)
 
-    # Build a list of tuples: (track_number, title, filename)
+def ensure_dir_exists(directory):
+    os.makedirs(directory, exist_ok=True)
+
+
+def build_episode_infos(mp3_files, audio_dir):
     episode_infos = []
     for filename in mp3_files:
         full_path = os.path.join(audio_dir, filename)
@@ -374,11 +347,46 @@ def main():
     # Sort by episode number (track)
     episode_infos.sort(key=lambda x: x[0])
 
-    # Interpolate pubDates
-    episode_numbers = [ep[0] for ep in episode_infos]
-    ep_dates = interpolate_dates(episode_numbers)
+    return episode_infos
 
-    rss_feed = generate_rss_header(base_url, cover_image)
+
+def generate_rss_feed(base_url, cover_image, episode_infos, audio_dir, episode_artwork_dir, ep_dates, overwrite_artwork):
+    rss = ET.Element('rss', {
+        'version': '2.0',
+        'xmlns:itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd',
+        'xmlns:media': 'http://search.yahoo.com/mrss/'
+    })
+    channel = ET.SubElement(rss, 'channel')
+    ET.SubElement(channel, 'title').text = PODCAST_TITLE
+    ET.SubElement(channel, 'link').text = base_url
+    ET.SubElement(channel, 'description').text = DESCRIPTION
+    ET.SubElement(channel, 'language').text = 'en-us'
+    ET.SubElement(channel, 'itunes:author').text = AUTHOR
+    ET.SubElement(channel, 'itunes:image', {'href': cover_image})
+    ET.SubElement(channel, 'itunes:summary').text = DESCRIPTION
+    ET.SubElement(channel, 'itunes:explicit').text = 'false'
+    ET.SubElement(channel, 'itunes:type').text = 'episodic'
+    ET.SubElement(channel, 'copyright').text = COPYRIGHT
+
+    owner = ET.SubElement(channel, 'itunes:owner')
+    ET.SubElement(owner, 'itunes:name').text = OWNER_NAME
+    ET.SubElement(owner, 'itunes:email').text = OWNER_EMAIL
+
+    # Categories
+    for cat, subcat in PODCAST_CATEGORIES:
+        if subcat:
+            cat_el = ET.SubElement(channel, 'itunes:category', {'text': cat})
+            ET.SubElement(cat_el, 'itunes:category', {'text': subcat})
+        else:
+            ET.SubElement(channel, 'itunes:category', {'text': cat})
+        ET.SubElement(channel, 'category').text = cat
+
+    image = ET.SubElement(channel, 'image')
+    ET.SubElement(image, 'url').text = cover_image
+    ET.SubElement(image, 'title').text = PODCAST_TITLE
+    ET.SubElement(image, 'link').text = base_url
+
+    # Add episodes as <item>
     for ep_num_int, id3_title, filename in tqdm(episode_infos, desc="Processing episodes"):
         ep_num = str(ep_num_int).zfill(2)
         full_path = os.path.join(audio_dir, filename)
@@ -400,7 +408,7 @@ def main():
                 for tag in audio.tags.values():
                     if isinstance(tag, APIC):
                         # Convert and pad to 1500x1500 JPEG with max compression
-                        if args.overwrite_artwork or not os.path.exists(episode_artwork_path):
+                        if overwrite_artwork or not os.path.exists(episode_artwork_path):
                             img = Image.open(BytesIO(tag.data)).convert("RGB")
                             img_padded = ImageOps.pad(
                                 img, (1500, 1500), color=(0, 0, 0), centering=(0.5, 0.5))
@@ -442,50 +450,68 @@ def main():
         duration = get_mp3_duration(full_path)
         explicit = "false"
 
-        rss_feed += generate_episode_item(
-            ep_num, title_raw, description, base_url, encoded_filename, file_size,
-            pub_date, itunes_image_url, explicit, duration
-        )
+        item = ET.SubElement(channel, 'item')
+        ET.SubElement(item, 'title').text = f"Episode {ep_num}: {title_raw}"
+        ET.SubElement(item, 'link').text = f"{base_url}{encoded_filename}"
+        ET.SubElement(item, 'description').text = description
+        enclosure = ET.SubElement(item, 'enclosure', {
+            'url': f"{base_url}{encoded_filename}",
+            'length': str(file_size),
+            'type': "audio/mpeg"
+        })
+        ET.SubElement(item, 'guid').text = f"{base_url}{encoded_filename}"
+        ET.SubElement(item, 'pubDate').text = pub_date
+        ET.SubElement(item, 'itunes:image', {'href': itunes_image_url})
+        ET.SubElement(item, 'itunes:explicit').text = explicit
+        if duration:
+            ET.SubElement(item, 'itunes:duration').text = duration
+        media_thumbnail = ET.SubElement(item, 'media:thumbnail', {
+            'url': itunes_image_url
+        })
+        media_content = ET.SubElement(item, 'media:content', {
+            'url': f"{base_url}{encoded_filename}",
+            'type': "audio/mpeg",
+            'fileSize': str(file_size),
+            'medium': "audio"
+        })
+        media_title = ET.SubElement(item, 'media:title')
+        media_title.text = f"Episode {ep_num}: {title_raw}"
+        media_description = ET.SubElement(item, 'media:description')
+        media_description.text = description
 
-    rss_feed += generate_rss_footer()
+    # Return pretty-printed XML string
+    rss_feed = ET.tostring(rss, encoding='unicode', method='xml')
 
-    if args.output:
-        with open(args.output, "w", encoding="utf-8") as f:
-            f.write(rss_feed)
-        logger.info(f"✅ RSS feed written to: {args.output}")
-    else:
-        print(rss_feed)
+    return rss_feed
 
 
-def parse_args():
-    parser = argparse.ArgumentParser(
-        description="Generate a podcast RSS feed from a directory of MP3 files."
+def write_feed(feed_xml, output_path):
+    # Pretty-print XML before saving
+    parsed = xml.dom.minidom.parseString(feed_xml)
+    pretty_xml = parsed.toprettyxml(indent="  ", encoding="utf-8")
+    with open(output_path, "wb") as f:
+        f.write(pretty_xml)
+
+
+def main():
+    args = parse_args()
+    audio_dir = args.audio_dir
+    base_url = args.base_url if args.base_url.endswith(
+        '/') else args.base_url + '/'
+    cover_image = args.cover_image
+    episode_artwork_dir = args.artwork_dir or os.path.join(
+        audio_dir, "episode_artwork")
+    ensure_dir_exists(episode_artwork_dir)
+
+    mp3_files = list_mp3_files(audio_dir)
+    episode_infos = build_episode_infos(mp3_files, audio_dir)
+    ep_dates = interpolate_dates([ep_info[0] for ep_info in episode_infos])
+    feed_xml = generate_rss_feed(
+        base_url, cover_image, episode_infos, audio_dir, episode_artwork_dir, ep_dates, args.overwrite_artwork
     )
-    parser.add_argument(
-        "audio_dir",
-        help="Directory containing MP3 files."
-    )
-    parser.add_argument(
-        "-o", "--output",
-        help="Output RSS XML filename. If not specified, prints to stdout.",
-        default=None
-    )
-    parser.add_argument(
-        "--base-url",
-        help="Base URL for enclosure links (default: %(default)s)",
-        default=MEDIA_BASE_URL
-    )
-    parser.add_argument(
-        "--cover-image",
-        help="Default podcast cover image URL (default: %(default)s)",
-        default=COVER_IMAGE
-    )
-    parser.add_argument(
-        "--artwork-dir",
-        help="Subdirectory for episode artwork (default: episode_artwork under audio_dir)",
-        default=None
-    )
-    return parser.parse_args()
+    output_path = args.output if args.output else os.path.join(audio_dir, "feed.xml")
+    write_feed(feed_xml, output_path)
+    logger.info(f"✅ RSS feed generated at {output_path}")
 
 
 if __name__ == "__main__":

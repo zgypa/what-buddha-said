@@ -7,12 +7,18 @@ layout: default
 
 {{ page.title }} was a website run and maintained by [Bhikkhu Samahita](https://www.dhammawiki.com/index.php?title=Bhikkhu_Samahita), which
 contained a large amount of material to help anyone on the buddhist path to
-eradicate suffering. Unfortunately, in [October of 2019, he passed away]({{ site.baseurl }}{% link death.md %}), and his
+eradicate suffering. In [October of 2019, he passed away]({{ site.baseurl }}{% link death.md %}), and his
 website was left abandoned. 
 
 Unfortunately i didn't realize this quick enough, nor did i realize the consequences, and have not taken any action. Eventually the website hosting he was using ran out, and the domain got bought out by someone. 
 
 However, not everything has gone lost: Even though all of his podcasts and videos are gone from soundcloud, luckily they are still on youtube. And parts of this website are still archived in the the Way Back Machine. I have downloaded his YouTube videos, just in case, and am currently in the process of collecting more information from the archived website.
+
+## Podcast Feed
+
+I have extracted the audio from Bhikkhu Samahita's YouTube videos and created a podcast feed. The audio files are served from my personal home server for my own personal use, but anyone is free to subscribe to the feed here [{{ site.baseurl }}{% link podcasts/dhamma_on_air/feed.xml %}]({{ site.baseurl }}{% link podcasts/dhamma_on_air/feed.xml %}).
+
+Feel free to use this URL in your favorite podcast app.
 
 ## Goal
 

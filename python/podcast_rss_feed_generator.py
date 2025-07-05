@@ -33,7 +33,9 @@ AUTHOR = "Samahita Thera"
 DESCRIPTION = "A collection of Buddhist-themed audio episodes."
 COVER_IMAGE = f"{FEED_BASE_URL}/assets/images/samahita_cartoon.jpg"
 EPISODE_ARTWORK_URL = f"{MEDIA_BASE_URL}/episode_artwork/"
-ARTWORK_SIZE = 3000  # Size for episode artwork in pixels. Apple Podcasts requires at least 1400x1400, but recommends 3000x3000 for best quality.
+# Size for episode artwork in pixels. Apple Podcasts requires at least 1400x1400, but recommends 3000x3000 for best quality.
+ARTWORK_SIZE = 3000
+SUMMARIES_DIR = os.path.join(os.path.dirname(__file__), "..", "podcasts", "dhamma_on_air", "summaries")
 
 
 # Fixed episode dates (episode number: YYYY-MM-DD)
@@ -274,6 +276,41 @@ def build_episode_infos(mp3_files, audio_dir):
     return episode_infos
 
 
+def load_episode_summary(episode_number:int, title:str, summaries_dir:str) -> str:
+    """
+    Load episode summary from ../podcasts/dhamma_on_air/summaries/summary-XXX.txt
+    where XXX is the zero-padded episode number.
+
+    Args:
+        episode_number (int): The episode number
+        audio_dir (str): The audio directory path
+
+    Returns:
+        str: The complete description text for the RSS feed
+    """
+    # Default header for all episodes
+    header = f"DoA #{episode_number}: {title}\nArtist: {AUTHOR}\n{PODCAST_TITLE}"
+
+    # Construct path to summary file
+    summary_dir = summaries_dir or SUMMARIES_DIR
+    summary_file = os.path.join(
+        summary_dir, f"summary-{episode_number:03d}.txt")
+
+    # Try to load the summary file
+    if os.path.exists(summary_file):
+        try:
+            with open(summary_file, 'r', encoding='utf-8') as f:
+                summary_content = f.read().strip()
+            if summary_content:
+                return f"{header}\n\n{summary_content}"
+        except Exception as e:
+            logger.warning(f"Failed to read summary file {summary_file}: {e}")
+    else:
+        logger.warning(f"Summary file not found: {summary_file}")
+    # Return just the header if no summary exists or if there was an error
+    return header
+
+
 def generate_rss_feed(base_url, cover_image, episode_infos, audio_dir, episode_artwork_dir, ep_dates, overwrite_artwork):
     rss = ET.Element('rss', {
         'version': '2.0',
@@ -373,6 +410,9 @@ def generate_rss_feed(base_url, cover_image, episode_infos, audio_dir, episode_a
         itunes_image_url = EPISODE_ARTWORK_URL_full if has_episode_artwork else cover_image
         duration = get_mp3_duration(full_path)
         explicit = "false"
+
+        # Load episode description with summary
+        description = load_episode_summary(ep_num_int, title=title_raw, summaries_dir=SUMMARIES_DIR)
 
         item = ET.SubElement(channel, 'item')
         ET.SubElement(item, 'title').text = f"Episode {ep_num}: {title_raw}"

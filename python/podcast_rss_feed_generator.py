@@ -26,7 +26,7 @@ FEED_BASE_URL = "https://www.antoniomagni.com/what-buddha-said"
 PODCAST_TITLE = "Dhamma on Air"
 AUTHOR = "Bikkhu Samahita"
 DESCRIPTION = "A collection of Buddhist-themed audio episodes."
-COVER_IMAGE = f"{FEED_BASE_URL}/assets/images/samahita_cartoon.png"
+COVER_IMAGE = f"{FEED_BASE_URL}/assets/images/samahita_cartoon.jpg"
 EPISODE_ARTWORK_URL = f"{FEED_BASE_URL}/podcasts/dhamma_on_air/episode_artwork/"
 
 # Fixed episode dates (episode number: YYYY-MM-DD)

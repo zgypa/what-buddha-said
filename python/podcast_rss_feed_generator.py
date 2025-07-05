@@ -9,7 +9,7 @@ import sys
 import logging
 import argparse
 from io import BytesIO
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 import xml.etree.ElementTree as ET
 import xml.dom.minidom
 
@@ -143,7 +143,7 @@ def interpolate_dates(episode_numbers):
     fixed_points = sorted(fixed.items())
     # If no fixed points, fallback to today
     if not fixed_points:
-        today = datetime.utcnow()
+        today = datetime.now(timezone.utc)
         for ep in sorted_eps:
             result[ep] = today
         return result

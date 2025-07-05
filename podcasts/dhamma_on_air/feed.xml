@@ -8,11 +8,11 @@
     <description>A collection of Buddhist-themed audio episodes.</description>
     <language>en-us</language>
     <itunes:author>Bikkhu Samahita</itunes:author>
-    <itunes:image href="https://www.antoniomagni.com/what-buddha-said/assets/images/samahita.jpg"/>
+    <itunes:image href="https://www.antoniomagni.com/what-buddha-said/assets/images/samahita_cartoon.png"/>
     <itunes:summary>A collection of Buddhist-themed audio episodes.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <image>
-      <url>https://www.antoniomagni.com/what-buddha-said/assets/images/samahita.jpg</url>
+      <url>https://www.antoniomagni.com/what-buddha-said/assets/images/samahita_cartoon.png</url>
       <title>Dhamma on Air</title>
       <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/</link>
     </image>
@@ -1222,10 +1222,10 @@ Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/64_The_Disciple_of_Right_View.mp3" length="49144327" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/64_The_Disciple_of_Right_View.mp3</guid>
       <pubDate>Mon, 01 May 2017 10:00:00 GMT</pubDate>
-      <itunes:image href="https://www.antoniomagni.com/what-buddha-said/assets/images/samahita.jpg"/>
+      <itunes:image href="https://www.antoniomagni.com/what-buddha-said/assets/images/samahita_cartoon.png"/>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>51:11</itunes:duration>
-      <media:thumbnail url="https://www.antoniomagni.com/what-buddha-said/assets/images/samahita.jpg"/>
+      <media:thumbnail url="https://www.antoniomagni.com/what-buddha-said/assets/images/samahita_cartoon.png"/>
       <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/64_The_Disciple_of_Right_View.mp3" type="audio/mpeg" fileSize="49144327" medium="audio"/>
       <media:title>Episode 64: The Disciple of Right View</media:title>
       <media:description>Title: The Disciple of Right View
@@ -2248,10 +2248,10 @@ Album: Dhamma on Air</description>
       <enclosure url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/119_Early_Buddhism_Quantum_Physics_Relativity.mp3" length="142415436" type="audio/mpeg"/>
       <guid>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/119_Early_Buddhism_Quantum_Physics_Relativity.mp3</guid>
       <pubDate>Fri, 16 Nov 2018 05:00:00 GMT</pubDate>
-      <itunes:image href="https://www.antoniomagni.com/what-buddha-said/assets/images/samahita.jpg"/>
+      <itunes:image href="https://www.antoniomagni.com/what-buddha-said/assets/images/samahita_cartoon.png"/>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>1:38:53</itunes:duration>
-      <media:thumbnail url="https://www.antoniomagni.com/what-buddha-said/assets/images/samahita.jpg"/>
+      <media:thumbnail url="https://www.antoniomagni.com/what-buddha-said/assets/images/samahita_cartoon.png"/>
       <media:content url="https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/119_Early_Buddhism_Quantum_Physics_Relativity.mp3" type="audio/mpeg" fileSize="142415436" medium="audio"/>
       <media:title>Episode 119: Early Buddhism Quantum Physics  Relativity</media:title>
       <media:description>Title: Early Buddhism Quantum Physics  Relativity

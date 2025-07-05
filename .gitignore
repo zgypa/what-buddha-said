@@ -2,3 +2,5 @@ _site
 .jekyll-cache
 Gemfile.lock
 Pipfile*
+.DS_Store
+*.pyc

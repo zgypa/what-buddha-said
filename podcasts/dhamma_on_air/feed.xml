@@ -17,10 +17,10 @@
       <itunes:name>Bikkhu Samahita</itunes:name>
       <itunes:email>what-buddha-said-net@antoniomagni.com</itunes:email>
     </itunes:owner>
-    <itunes:category text="Religion & Spirituality">
+    <itunes:category text="Religion &amp; Spirituality">
       <itunes:category text="Buddhism"/>
     </itunes:category>
-    <category>Religion & Spirituality</category>
+    <category>Religion &amp; Spirituality</category>
     <image>
       <url>https://www.antoniomagni.com/what-buddha-said/assets/images/samahita_cartoon.jpg</url>
       <title>Dhamma on Air</title>

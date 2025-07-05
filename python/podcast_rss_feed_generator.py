@@ -56,13 +56,15 @@ def generate_rss_header(base_url, cover_image):
     # Build category tags
     itunes_category_tags = ""
     for cat, subcat in PODCAST_CATEGORIES:
+        cat_escaped = cat.replace("&", "&amp;")
+        subcat_escaped = subcat.replace("&", "&amp;") if subcat else None
         if subcat:
-            itunes_category_tags += f'    <itunes:category text="{cat}">\n      <itunes:category text="{subcat}"/>\n    </itunes:category>\n'
+            itunes_category_tags += f'    <itunes:category text="{cat_escaped}">\n      <itunes:category text="{subcat_escaped}"/>\n    </itunes:category>\n'
         else:
-            itunes_category_tags += f'    <itunes:category text="{cat}"/>\n'
+            itunes_category_tags += f'    <itunes:category text="{cat_escaped}"/>\n'
     # Add generic <category> for RSS readers
     rss_category_tags = "".join(
-        [f'    <category>{cat}</category>\n' for cat, _ in PODCAST_CATEGORIES])
+        [f'    <category>{cat.replace("&", "&amp;")}</category>\n' for cat, _ in PODCAST_CATEGORIES])
 
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"

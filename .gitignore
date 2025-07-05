@@ -4,3 +4,4 @@ Gemfile.lock
 Pipfile*
 .DS_Store
 *.pyc
+episode_artwork

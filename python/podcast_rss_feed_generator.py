@@ -8,13 +8,15 @@ import re
 import sys
 import logging
 import argparse
+from io import BytesIO
+from datetime import datetime, timedelta
 
 from email.utils import formatdate
 from urllib.parse import quote
 from xml.sax.saxutils import escape
 from mutagen.mp3 import MP3
-from mutagen.id3 import ID3, APIC, TIT2, TPE1, TALB, TCON, TDRC, COMM, USLT, TXXX
-from datetime import datetime, timedelta
+from mutagen.id3 import ID3, APIC
+from PIL import Image
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -332,7 +334,7 @@ def main():
 
         description = title_raw  # fallback
         has_episode_artwork = False
-        episode_artwork_filename = f"cover-{ep_num}.jpg"
+        episode_artwork_filename = f"cover-{ep_num}.png"
         episode_artwork_path = os.path.join(episode_artwork_dir, episode_artwork_filename)
         EPISODE_ARTWORK_URL_full = EPISODE_ARTWORK_URL + episode_artwork_filename
 
@@ -342,9 +344,18 @@ def main():
                 # Extract artwork
                 for tag in audio.tags.values():
                     if isinstance(tag, APIC):
+                        # Convert and pad to 1500x1500 PNG with transparency
                         if not os.path.exists(episode_artwork_path):
-                            with open(episode_artwork_path, "wb") as img:
-                                img.write(tag.data)
+                            img = Image.open(BytesIO(tag.data)).convert("RGBA")
+                            w, h = img.size
+                            scale = min(1500 / w, 1500 / h)
+                            new_w, new_h = int(w * scale), int(h * scale)
+                            img_resized = img.resize((new_w, new_h), Image.LANCZOS)
+                            out_img = Image.new("RGBA", (1500, 1500), (0, 0, 0, 0))
+                            paste_x = (1500 - new_w) // 2
+                            paste_y = (1500 - new_h) // 2
+                            out_img.paste(img_resized, (paste_x, paste_y), img_resized)
+                            out_img.save(episode_artwork_path, "PNG")
                         has_episode_artwork = True
                         break
                 # Extract description

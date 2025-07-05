@@ -14,6 +14,7 @@ from urllib.parse import quote
 from xml.sax.saxutils import escape
 from mutagen.mp3 import MP3
 from mutagen.id3 import ID3, APIC, TIT2, TPE1, TALB, TCON, TDRC, COMM, USLT, TXXX
+from datetime import datetime, timedelta
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -27,6 +28,16 @@ AUTHOR = "Bikkhu Samahita"
 DESCRIPTION = "A collection of Buddhist-themed audio episodes."
 COVER_IMAGE = f"{FEED_BASE_URL}/assets/images/samahita.jpg"
 EPISODE_ARTWORK_URL = f"{FEED_BASE_URL}/podcasts/dhamma_on_air/episode_artwork/"
+
+# Fixed episode dates (episode number: YYYY-MM-DD)
+FIXED_EPISODE_DATES = {
+    3:  "2015-12-12",
+    22: "2016-05-15",
+    25: "2016-06-17",
+    45: "2016-11-19",
+    54: "2017-01-19",
+    98: "2018-04-15",
+}
 
 def generate_rss_header(base_url, cover_image):
     return f"""<?xml version="1.0" encoding="UTF-8"?>
@@ -151,6 +162,88 @@ def extract_id3_title_and_track(audio):
             track = str(trck.text[0]).split('/')[0]
     return title, track
 
+def parse_fixed_dates():
+    # Convert to {ep_num: datetime}
+    return {ep: datetime.strptime(date, "%Y-%m-%d") for ep, date in FIXED_EPISODE_DATES.items()}
+
+def interpolate_dates(episode_numbers):
+    """
+    Given a sorted list of episode numbers, return a dict {ep_num: datetime}
+    using fixed dates and linear interpolation.
+    """
+    fixed = parse_fixed_dates()
+    result = {}
+    sorted_eps = sorted(episode_numbers)
+    # Prepare list of (ep_num, date) sorted by ep_num
+    fixed_points = sorted(fixed.items())
+    # If no fixed points, fallback to today
+    if not fixed_points:
+        today = datetime.utcnow()
+        for ep in sorted_eps:
+            result[ep] = today
+        return result
+
+    # For each episode, find its date
+    for idx, ep in enumerate(sorted_eps):
+        # If fixed, use it
+        if ep in fixed:
+            result[ep] = fixed[ep]
+            continue
+        # Find previous and next fixed points
+        prev = None
+        next_ = None
+        for f_ep, f_date in fixed_points:
+            if f_ep < ep:
+                prev = (f_ep, f_date)
+            elif f_ep > ep and next_ is None:
+                next_ = (f_ep, f_date)
+        if prev and next_:
+            # Interpolate
+            ep_span = next_[0] - prev[0]
+            day_span = (next_[1] - prev[1]).days
+            if ep_span == 0 or day_span == 0:
+                interp_date = prev[1]
+            else:
+                days_per_ep = day_span / ep_span
+                interp_date = prev[1] + timedelta(days=(ep - prev[0]) * days_per_ep)
+            result[ep] = interp_date
+        elif prev and not next_:
+            # Extrapolate forward
+            # Use last two fixed points if possible
+            prev2 = None
+            for f_ep, f_date in reversed(fixed_points):
+                if f_ep < prev[0]:
+                    prev2 = (f_ep, f_date)
+                    break
+            if prev2:
+                ep_span = prev[0] - prev2[0]
+                day_span = (prev[1] - prev2[1]).days
+                days_per_ep = day_span / ep_span if ep_span else 7
+            else:
+                days_per_ep = 7  # fallback
+            interp_date = prev[1] + timedelta(days=(ep - prev[0]) * days_per_ep)
+            result[ep] = interp_date
+        elif next_ and not prev:
+            # Extrapolate backward
+            # Use first two fixed points if possible
+            next2 = None
+            for f_ep, f_date in fixed_points:
+                if f_ep > next_[0]:
+                    next2 = (f_ep, f_date)
+                    break
+            if next2:
+                ep_span = next2[0] - next_[0]
+                day_span = (next2[1] - next_[1]).days
+                days_per_ep = day_span / ep_span if ep_span else 7
+            else:
+                days_per_ep = 7  # fallback
+            interp_date = next_[1] - timedelta(days=(next_[0] - ep) * days_per_ep)
+            result[ep] = interp_date
+        else:
+            # Should not happen, fallback to today
+            result[ep] = datetime.utcnow()
+    return result
+
 def main():
     parser = argparse.ArgumentParser(
         description="Generate a podcast RSS feed from a directory of MP3 files."
@@ -225,6 +318,10 @@ def main():
     # Sort by episode number (track)
     episode_infos.sort(key=lambda x: x[0])
 
+    # Interpolate pubDates
+    episode_numbers = [ep[0] for ep in episode_infos]
+    ep_dates = interpolate_dates(episode_numbers)
+
     rss_feed = generate_rss_header(base_url, cover_image)
     for ep_num_int, id3_title, filename in episode_infos:
         ep_num = str(ep_num_int).zfill(2)
@@ -268,10 +365,9 @@ def main():
             file_size = 0
             file_creation_time = None
 
-        if file_creation_time:
-            pub_date = formatdate(timeval=file_creation_time, localtime=False, usegmt=True)
-        else:
-            pub_date = formatdate(timeval=None, localtime=False, usegmt=True)
+        # Use interpolated date
+        pub_date_dt = ep_dates.get(ep_num_int)
+        pub_date = formatdate(timeval=pub_date_dt.timestamp(), localtime=False, usegmt=True) if pub_date_dt else formatdate(timeval=None, localtime=False, usegmt=True)
 
         encoded_filename = quote(filename)
         itunes_image_url = EPISODE_ARTWORK_URL_full if has_episode_artwork else cover_image

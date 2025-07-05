@@ -54,50 +54,6 @@ OWNER_NAME = "Bikkhu Samahita"
 OWNER_EMAIL = "what-buddha-said-net@antoniomagni.com"
 
 
-def generate_rss_header(base_url, cover_image):
-    rss = ET.Element('rss', {
-        'version': '2.0',
-        'xmlns:itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd',
-        'xmlns:media': 'http://search.yahoo.com/mrss/'
-    })
-    channel = ET.SubElement(rss, 'channel')
-    ET.SubElement(channel, 'title').text = PODCAST_TITLE
-    ET.SubElement(channel, 'link').text = base_url
-    ET.SubElement(channel, 'description').text = DESCRIPTION
-    ET.SubElement(channel, 'language').text = 'en-us'
-    ET.SubElement(channel, 'itunes:author').text = AUTHOR
-    ET.SubElement(channel, 'itunes:image', {'href': cover_image})
-    ET.SubElement(channel, 'itunes:summary').text = DESCRIPTION
-    ET.SubElement(channel, 'itunes:explicit').text = 'false'
-    ET.SubElement(channel, 'itunes:type').text = 'episodic'
-    ET.SubElement(channel, 'copyright').text = COPYRIGHT
-
-    owner = ET.SubElement(channel, 'itunes:owner')
-    ET.SubElement(owner, 'itunes:name').text = OWNER_NAME
-    ET.SubElement(owner, 'itunes:email').text = OWNER_EMAIL
-
-    # Categories
-    for cat, subcat in PODCAST_CATEGORIES:
-        if subcat:
-            cat_el = ET.SubElement(channel, 'itunes:category', {'text': cat})
-            ET.SubElement(cat_el, 'itunes:category', {'text': subcat})
-        else:
-            ET.SubElement(channel, 'itunes:category', {'text': cat})
-        ET.SubElement(channel, 'category').text = cat
-
-    image = ET.SubElement(channel, 'image')
-    ET.SubElement(image, 'url').text = cover_image
-    ET.SubElement(image, 'title').text = PODCAST_TITLE
-    ET.SubElement(image, 'link').text = base_url
-
-    # Return pretty-printed XML string
-    return ET.tostring(rss, encoding='unicode', method='xml')
-
-
-def generate_rss_footer():
-    return "  </channel>\n</rss>\n"
-
-
 def generate_episode_item(
     ep_num, title_raw, description, base_url, encoded_filename, file_size,
     pub_date, itunes_image_url, explicit, duration=None
@@ -300,7 +256,8 @@ def parse_args():
     parser.add_argument("--artwork-dir", help="Directory for episode artwork.")
     parser.add_argument("--overwrite-artwork", action="store_true",
                         help="Overwrite existing episode artwork PNG files.")
-    parser.add_argument("--output", help="Path to output XML file (default: feed.xml in audio_dir)")
+    parser.add_argument(
+        "--output", help="Path to output XML file (default: feed.xml in audio_dir)")
     return parser.parse_args()
 
 
@@ -509,7 +466,8 @@ def main():
     feed_xml = generate_rss_feed(
         base_url, cover_image, episode_infos, audio_dir, episode_artwork_dir, ep_dates, args.overwrite_artwork
     )
-    output_path = args.output if args.output else os.path.join(audio_dir, "feed.xml")
+    output_path = args.output if args.output else os.path.join(
+        audio_dir, "feed.xml")
     write_feed(feed_xml, output_path)
     logger.info(f"✅ RSS feed generated at {output_path}")
 

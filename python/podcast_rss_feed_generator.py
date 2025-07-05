@@ -35,7 +35,8 @@ COVER_IMAGE = f"{FEED_BASE_URL}/assets/images/samahita_cartoon.jpg"
 EPISODE_ARTWORK_URL = f"{MEDIA_BASE_URL}/episode_artwork/"
 # Size for episode artwork in pixels. Apple Podcasts requires at least 1400x1400, but recommends 3000x3000 for best quality.
 ARTWORK_SIZE = 3000
-SUMMARIES_DIR = os.path.join(os.path.dirname(__file__), "..", "podcasts", "dhamma_on_air", "summaries")
+SUMMARIES_DIR = os.path.join(os.path.dirname(
+    __file__), "..", "podcasts", "dhamma_on_air", "summaries")
 
 
 # Fixed episode dates (episode number: YYYY-MM-DD)
@@ -211,7 +212,7 @@ def interpolate_dates(episode_numbers):
             result[ep] = interp_date
         else:
             # Should not happen, fallback to today
-            result[ep] = datetime.utcnow()
+            result[ep] = datetime.now(timezone.utc)
     return result
 
 
@@ -276,7 +277,7 @@ def build_episode_infos(mp3_files, audio_dir):
     return episode_infos
 
 
-def load_episode_summary(episode_number:int, title:str, summaries_dir:str) -> str:
+def load_episode_summary(episode_number: int, title: str, summaries_dir: str) -> str:
     """
     Load episode summary from ../podcasts/dhamma_on_air/summaries/summary-XXX.txt
     where XXX is the zero-padded episode number.
@@ -349,13 +350,13 @@ def generate_rss_feed(base_url, cover_image, episode_infos, audio_dir, episode_a
 
     # Add episodes as <item>
     for ep_num_int, id3_title, filename in tqdm(episode_infos, desc="Processing episodes"):
+        description = ""
         ep_num = str(ep_num_int).zfill(2)
         full_path = os.path.join(audio_dir, filename)
 
         # Use ID3 title if available, else fallback to filename (without extension)
         title_raw = id3_title if id3_title else os.path.splitext(filename)[0]
 
-        description = title_raw  # fallback
         has_episode_artwork = False
         episode_artwork_filename = f"cover-{ep_num}.jpg"
         episode_artwork_path = os.path.join(
@@ -412,10 +413,11 @@ def generate_rss_feed(base_url, cover_image, episode_infos, audio_dir, episode_a
         explicit = "false"
 
         # Load episode description with summary
-        description = load_episode_summary(ep_num_int, title=title_raw, summaries_dir=SUMMARIES_DIR)
+        description += load_episode_summary(
+            ep_num_int, title=title_raw, summaries_dir=SUMMARIES_DIR)
 
         item = ET.SubElement(channel, 'item')
-        ET.SubElement(item, 'title').text = f"Episode {ep_num}: {title_raw}"
+        ET.SubElement(item, 'title').text = f"DoA #{ep_num}: {title_raw}"
         ET.SubElement(item, 'link').text = FEED_BASE_URL
         ET.SubElement(item, 'description').text = description
         enclosure = ET.SubElement(item, 'enclosure', {

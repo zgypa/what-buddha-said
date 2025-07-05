@@ -11,6 +11,16 @@
     <itunes:image href="https://www.antoniomagni.com/what-buddha-said/assets/images/samahita_cartoon.jpg"/>
     <itunes:summary>A collection of Buddhist-themed audio episodes.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <copyright>No Copyright. Free to share and use.</copyright>
+    <itunes:owner>
+      <itunes:name>Bikkhu Samahita</itunes:name>
+      <itunes:email>what-buddha-said-net@antoniomagni.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Religion & Spirituality">
+      <itunes:category text="Buddhism"/>
+    </itunes:category>
+    <category>Religion & Spirituality</category>
     <image>
       <url>https://www.antoniomagni.com/what-buddha-said/assets/images/samahita_cartoon.jpg</url>
       <title>Dhamma on Air</title>
@@ -19,6 +29,7 @@
 
     <item>
       <title>Episode 00: Dhamma on Air Trailer</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/000_Dhamma_on_Air_Trailer.mp3</link>
       <description>Title: Dhamma on Air Trailer
 Artist: Bhikkhu Samahita
 Album: Dhamma On Air</description>
@@ -38,6 +49,7 @@ Album: Dhamma On Air</media:description>
 
     <item>
       <title>Episode 01: First Episode</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/01_First_Episode.mp3</link>
       <description>Title: First Episode
 Artist: Bhikkhu Samahita
 Album: Dhamma On Air</description>
@@ -57,6 +69,7 @@ Album: Dhamma On Air</media:description>
 
     <item>
       <title>Episode 02: Second Episode</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/02_Second_Episode.mp3</link>
       <description>Title: Second Episode
 Artist: Bhikkhu Samahita
 Album: Dhamma On Air</description>
@@ -76,6 +89,7 @@ Album: Dhamma On Air</media:description>
 
     <item>
       <title>Episode 03: Episode 3</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/03_Episode_3.mp3</link>
       <description>Title: Episode 3
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -95,6 +109,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 04: Episode 4</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/04_Episode_4.mp3</link>
       <description>Title: Episode 4
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -114,6 +129,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 05: Episode 5</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/05_Episode_5.mp3</link>
       <description>Title: Episode 5
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -133,6 +149,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 06: Mara and the Multiverse</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/06_Mara_and_the_Multiverse.mp3</link>
       <description>Title: Mara and the Multiverse
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -152,6 +169,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 07: Jhana and Merit</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/07_Jhana_and_Merit.mp3</link>
       <description>Title: Jhana and Merit
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -171,6 +189,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 08: The next Buddha Metteyya and Kamma</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/08_The_next_Buddha_Metteyya_and_Kamma.mp3</link>
       <description>Title: The next Buddha Metteyya and Kamma
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -190,6 +209,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 09: Nobles and Past Lives</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/09_Nobles_and_Past_Lives.mp3</link>
       <description>Title: Nobles and Past Lives
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -209,6 +229,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 10: The Double Slit Experiment</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/10_The_Double_Slit_Experiment.mp3</link>
       <description>Title: The Double Slit Experiment
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -228,6 +249,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 11: The 5 Destinations</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/11_The_5_Destinations.mp3</link>
       <description>Title: The 5 Destinations
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -247,6 +269,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 12: Death-Consciousness</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/12_Death-Consciousness.mp3</link>
       <description>Title: Death-Consciousness
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -266,6 +289,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 13: The 3 Jewels</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/13_The_3_Jewels.mp3</link>
       <description>Title: The 3 Jewels
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -285,6 +309,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 14: Stream-Entry &amp; the 5 Hindrances</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/14_Stream-Entry_and_the_5_Hindrances.mp3</link>
       <description>Title: Stream-Entry &amp; the 5 Hindrances
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -304,6 +329,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 15: The mental and the mind-made body</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/15_The_mental_and_the_mind-made_body.mp3</link>
       <description>Title: The mental and the mind-made body
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -323,6 +349,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 16: Rebirth Transmigration</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/16_Rebirth_Transmigration.mp3</link>
       <description>Title: Rebirth Transmigration
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -342,6 +369,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 17: Reincarnation Research</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/17_Reincarnation_Research.mp3</link>
       <description>Title: Reincarnation Research
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -361,6 +389,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 18: Conditioned Clustering</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/18_Conditioned_Clustering.mp3</link>
       <description>Title: Conditioned Clustering
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -380,6 +409,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 19: Meditation increases the IQ</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/19_Meditation_increases_the_IQ.mp3</link>
       <description>Title: Meditation increases the IQ
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -399,6 +429,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 20: Relics, Passions, Dreams, and Aliens</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/20_Relics%2C_Passions%2C_Dreams%2C_and_Aliens.mp3</link>
       <description>Title: Relics, Passions, Dreams, and Aliens
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -418,6 +449,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 21: Right View vs. Nihilism</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/21_Right_View_vs.Nihilism.mp3</link>
       <description>Title: Right View vs. Nihilism
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -437,6 +469,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 22: Right Livelihood &amp; Consciousness</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/22_Right_Livelihood_and_Consciousness.mp3</link>
       <description>Title: Right Livelihood &amp; Consciousness
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -456,6 +489,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 23: Vesak and Right Effort</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/23_Vesak_and_Right_Effort.mp3</link>
       <description>Title: Vesak and Right Effort
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -475,6 +509,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 24: Genesis and Cosmology</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/24_Genesis_and_Cosmology.mp3</link>
       <description>Title: Genesis and Cosmology
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -494,6 +529,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 25: The 10 indeterminable questions</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/25_The_10_indeterminable_questions.mp3</link>
       <description>Title: The 10 indeterminable questions
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -513,6 +549,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 26: The 40 Classic Meditations</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/26_The_40_Classic_Meditations.mp3</link>
       <description>Title: The 40 Classic Meditations
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -532,6 +569,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 27: The Space-Time Onion</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/27_The_Space-Time_Onion.mp3</link>
       <description>Title: The Space-Time Onion
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -551,6 +589,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 28: Solar n Zen</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/28_Solar_n_Zen.mp3</link>
       <description>Title: Solar n Zen
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -570,6 +609,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 29: Escaping the Mirror-House</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/29_Escaping_the_Mirror-House.mp3</link>
       <description>Title: Escaping the Mirror-House
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -589,6 +629,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 30: Right Speech &amp; Stream Entry</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/30_Right_Speech_and_Stream_Entry.mp3</link>
       <description>Title: Right Speech &amp; Stream Entry
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -608,6 +649,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 31: Distraction &amp; Disillusion</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/31_Distraction_and_Disillusion.mp3</link>
       <description>Title: Distraction &amp; Disillusion
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -627,6 +669,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 32: The 7 Sets</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/32_The_7_Sets.mp3</link>
       <description>Title: The 7 Sets
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -646,6 +689,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 33: Emergence from Emptiness..</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/33_Emergence_from_Emptiness.mp3</link>
       <description>Title: Emergence from Emptiness..
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -665,6 +709,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 34: Solitude versus Superstition</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/34_Solitude_versus_Superstition.mp3</link>
       <description>Title: Solitude versus Superstition
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -684,6 +729,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 35: The Way beyond Kamma</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/35_The_Way_beyond_Kamma.mp3</link>
       <description>Title: The Way beyond Kamma
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -703,6 +749,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 36: The 31 Levels of Existence</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/36_The_31_Levels_of_Existence.mp3</link>
       <description>Title: The 31 Levels of Existence
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -722,6 +769,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 37: The 24 Conditional Relations</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/37_The_24_Conditional_Relations.mp3</link>
       <description>Title: The 24 Conditional Relations
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -741,6 +789,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 38: Stream-Winning Merit</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/38_Stream-Winning_Merit.mp3</link>
       <description>Title: Stream-Winning Merit
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -760,6 +809,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 39: Dhamma Reunion</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/39_Dhamma_Reunion.mp3</link>
       <description>Title: Dhamma Reunion
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -779,6 +829,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 41: The Raft and Sirima</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/41_The_Raft_and_Sirima.mp3</link>
       <description>Title: The Raft and Sirima
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -798,6 +849,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 42: The Lost Traveller</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/42_The_Lost_Traveller.mp3</link>
       <description>Title: The Lost Traveller
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -817,6 +869,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 43: How to Cure Depression</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/43_How_to_Cure_Depression.mp3</link>
       <description>Title: How to Cure Depression
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -836,6 +889,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 44: Kathina Robe Offering</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/44_Kathina_Robe_Offering.mp3</link>
       <description>Title: Kathina Robe Offering
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -855,6 +909,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 45: Turtles all the Way Down</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/45_Turtles_all_the_Way_Down.mp3</link>
       <description>Title: Turtles all the Way Down
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -874,6 +929,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 46: The Buddha's stance on Suicide</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/46_The_Buddha_s_stance_on_Suicide.mp3</link>
       <description>Title: The Buddha's stance on Suicide
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -893,6 +949,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 47: Existential Foam ...</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/47_Existential_Foam.mp3</link>
       <description>Title: Existential Foam ...
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -912,6 +969,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 48: Nibbana Sweep</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/48_Nibbana_Sweep.mp3</link>
       <description>Title: Nibbana Sweep
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -931,6 +989,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 49: Who ordered this</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/49_Who_ordered_this.mp3</link>
       <description>Title: Who ordered this
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -950,6 +1009,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 50: What is Sexual Abuse</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/50_What_is_Sexual_Abuse.mp3</link>
       <description>Title: What is Sexual Abuse
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -969,6 +1029,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 51: The 6 Animals</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/51_The_6_Animals.mp3</link>
       <description>Title: The 6 Animals
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -988,6 +1049,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 52: Desire Fire</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/52_Desire_Fire.mp3</link>
       <description>Title: Desire Fire
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1007,6 +1069,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 53: Guided Meditation on Anapana-Sati Breathing</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/53_Guided_Meditation_on_Anapana-Sati_Breathing.mp3</link>
       <description>Title: Guided Meditation on Anapana-Sati Breathing
 Artist: Bhikkhu Samahita
 Album: Dhamma On Air</description>
@@ -1026,6 +1089,7 @@ Album: Dhamma On Air</media:description>
 
     <item>
       <title>Episode 54: The 2 Oxen</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/54_The_2_Oxen.mp3</link>
       <description>Title: The 2 Oxen
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1045,6 +1109,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 55: The Participatory Anthropic Principle</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/55_The_Participatory_Anthropic_Principle.mp3</link>
       <description>Title: The Participatory Anthropic Principle
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1064,6 +1129,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 56: The Kammic Echo Valley</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/56_The_Kammic_Echo_Valley.mp3</link>
       <description>Title: The Kammic Echo Valley
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1083,6 +1149,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 57: Parent's Praise ..</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/57_Parent_s_Praise.mp3</link>
       <description>Title: Parent's Praise ..
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1102,6 +1169,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 58: Viking Dhamma 101A</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/58_Viking_Dhamma_101A.mp3</link>
       <description>Title: Viking Dhamma 101A
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1121,6 +1189,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 59: The Baited Hook</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/59_The_Baited_Hook.mp3</link>
       <description>Title: The Baited Hook
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1140,6 +1209,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 60: Relativity = Relational Reality</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/60_Relativity_%3D_Relational_Reality.mp3</link>
       <description>Title: Relativity = Relational Reality
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1159,6 +1229,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 61: Quantum Buddhism 1</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/61_Quantum_Buddhism_1.mp3</link>
       <description>Title: Quantum Buddhism 1
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1178,6 +1249,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 62: Quantum Buddhism 2 = The Great Smoky Dragon!</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/62_Quantum_Buddhism_2_%3D_The_Great_Smoky_Dragon.mp3</link>
       <description>Title: Quantum Buddhism 2 = The Great Smoky Dragon!
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1197,6 +1269,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 63: Meditation vs. Psychedelics</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/63_Meditation_vs.Psychedelics.mp3</link>
       <description>Title: Meditation vs. Psychedelics
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1216,6 +1289,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 64: The Disciple of Right View</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/64_The_Disciple_of_Right_View.mp3</link>
       <description>Title: The Disciple of Right View
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1235,6 +1309,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 65: The Ocean of Right Motivation</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/65_The_Ocean_of_Right_Motivation.mp3</link>
       <description>Title: The Ocean of Right Motivation
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1254,6 +1329,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 66: Right Speech</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/66_Right_Speech.mp3</link>
       <description>Title: Right Speech
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1273,6 +1349,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 67: Feeding Right Action</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/67_Feeding_Right_Action.mp3</link>
       <description>Title: Feeding Right Action
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1292,6 +1369,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 68: Right Livelihood</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/68_Right_Livelihood.mp3</link>
       <description>Title: Right Livelihood
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1311,6 +1389,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 69: The Fire of Right Awareness</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/69_The_Fire_of_Right_Awareness.mp3</link>
       <description>Title: The Fire of Right Awareness
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1330,6 +1409,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 70: Absorbed into Right Concentration</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/70_Absorbed_into_Right_Concentration.mp3</link>
       <description>Title: Absorbed into Right Concentration
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1349,6 +1429,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 71: The Noble 8-Fold Way</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/71_The_Noble_8-Fold_Way.mp3</link>
       <description>Title: The Noble 8-Fold Way
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1368,6 +1449,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 72: Floating in Jhāna</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/72_Floating_in_Jh%C4%81na.mp3</link>
       <description>Title: Floating in Jhāna
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1387,6 +1469,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 73: Delight versus Danger</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/73_Delight_versus_Danger.mp3</link>
       <description>Title: Delight versus Danger
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1406,6 +1489,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 74: The Divine Dimension</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/74_The_Divine_Dimension.mp3</link>
       <description>Title: The Divine Dimension
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1425,6 +1509,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 75: The Surge of Urge</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/75_The_Surge_of_Urge.mp3</link>
       <description>Title: The Surge of Urge
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1444,6 +1529,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 76: Taming the Horse ...</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/76_Taming_the_Horse.mp3</link>
       <description>Title: Taming the Horse ...
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1463,6 +1549,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 77: The Transmigrating Field</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/77_The_Transmigrating_Field.mp3</link>
       <description>Title: The Transmigrating Field
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1482,6 +1569,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 78: Emptiness</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/78_Emptiness.mp3</link>
       <description>Title: Emptiness
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1501,6 +1589,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 79: The Empty Boat</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/79_The_Empty_Boat.mp3</link>
       <description>Title: The Empty Boat
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1520,6 +1609,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 80: Reincarnation Revisited</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/80_Reincarnation_Revisited.mp3</link>
       <description>Title: Reincarnation Revisited
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1539,6 +1629,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 81: Marijuana Addiction</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/81_Marijuana_Addiction.mp3</link>
       <description>Title: Marijuana Addiction
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1558,6 +1649,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 82: The 7 Links to Awakening</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/82_The_7_Links_to_Awakening.mp3</link>
       <description>Title: The 7 Links to Awakening
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1577,6 +1669,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 83: Dreaming ..</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/83_Dreaming.mp3</link>
       <description>Title: Dreaming ..
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1596,6 +1689,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 84: Calm and Insight</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/84_Calm_and_Insight.mp3</link>
       <description>Title: Calm and Insight
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1615,6 +1709,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 85: Alone yet Free</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/85_Alone_yet_Free.mp3</link>
       <description>Title: Alone yet Free
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1634,6 +1729,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 86: The Cypress Hermitage</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/86_The_Cypress_Hermitage.mp3</link>
       <description>Title: The Cypress Hermitage
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1653,6 +1749,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 87: Clustered Clinging</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/87_Clustered_Clinging.mp3</link>
       <description>Title: Clustered Clinging
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1672,6 +1769,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 88: Unconditional Love ..</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/88_Unconditional_Love.mp3</link>
       <description>Title: Unconditional Love ..
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1691,6 +1789,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 89: The Open Door ...</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/89_The_Open_Door.mp3</link>
       <description>Title: The Open Door ...
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1710,6 +1809,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 90: Vegetarianism &amp; the 32 Marks of a Great Man</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/90_Vegetarianism_and_the_32_Marks_of_a_Great_Man.mp3</link>
       <description>Title: Vegetarianism &amp; the 32 Marks of a Great Man
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1729,6 +1829,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 91: The Divine Diet</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/91_The_Divine_Diet.mp3</link>
       <description>Title: The Divine Diet
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1748,6 +1849,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 92: The Mind~Brain Problem</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/92_The_Mind~Brain_Problem.mp3</link>
       <description>Title: The Mind~Brain Problem
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1767,6 +1869,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 93: The 7 Wings..</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/93_The_7_Wings.mp3</link>
       <description>Title: The 7 Wings..
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1786,6 +1889,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 94: Jesus &amp; the Bag of Bones ..</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/94_Jesus_and_the_Bag_of_Bones.mp3</link>
       <description>Title: Jesus &amp; the Bag of Bones ..
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1805,6 +1909,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 95: The Blooming Mind ..</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/95_The_Blooming_Mind.mp3</link>
       <description>Title: The Blooming Mind ..
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1824,6 +1929,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 96: Stilling Genesis</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/96_Stilling_Genesis.mp3</link>
       <description>Title: Stilling Genesis
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1843,6 +1949,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 97: Nibbāna and Kamma</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/97_Nibb%C4%81na_and_Kamma.mp3</link>
       <description>Title: Nibbāna and Kamma
 Artist: Bhikkhu Samahita
 Album: Dhamma On Air</description>
@@ -1862,6 +1969,7 @@ Album: Dhamma On Air</media:description>
 
     <item>
       <title>Episode 98: Do or Die</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/98_Do_or_Die.mp3</link>
       <description>Title: Do or Die
 Artist: Bhikkhu Samahita
 Album: Dhamma On Air</description>
@@ -1881,6 +1989,7 @@ Album: Dhamma On Air</media:description>
 
     <item>
       <title>Episode 99: Worthy is Vesak</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/99_Worthy_is_Vesak.mp3</link>
       <description>Title: Worthy is Vesak
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1900,6 +2009,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 101: Urgency vs. Complacency</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/101_Urgency_vs.Complacency.mp3</link>
       <description>Title: Urgency vs. Complacency
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1919,6 +2029,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 102: Past Life Remembrance</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/102_Past_Life_Remembrance.mp3</link>
       <description>Title: Past Life Remembrance
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1938,6 +2049,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 103: Divine Intervention</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/103_Divine_Intervention.mp3</link>
       <description>Title: Divine Intervention
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1957,6 +2069,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 104: The 5 Clusters of Clinging</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/104_The_5_Clusters_of_Clinging.mp3</link>
       <description>Title: The 5 Clusters of Clinging
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1976,6 +2089,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 105: Magical Powers</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/105_Magical_Powers.mp3</link>
       <description>Title: Magical Powers
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -1995,6 +2109,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 106: Mind-Brooming</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/106_Mind-Brooming.mp3</link>
       <description>Title: Mind-Brooming
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2014,6 +2129,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 107: Restless or Stressed</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/107_Restless_or_Stressed.mp3</link>
       <description>Title: Restless or Stressed
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2033,6 +2149,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 108: Nibbana - the Highest Happiness</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/108_Nibbana-the_Highest_Happiness.mp3</link>
       <description>Title: Nibbana - the Highest Happiness
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2052,6 +2169,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 109: Aware of Causation</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/109_Aware_of_Causation.mp3</link>
       <description>Title: Aware of Causation
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2071,6 +2189,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 110: Noble Speech</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/110_Noble_Speech.mp3</link>
       <description>Title: Noble Speech
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2090,6 +2209,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 111: No Self Emptiness</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/111_No_Self_Emptiness.mp3</link>
       <description>Title: No Self Emptiness
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2109,6 +2229,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 112: The Real Love</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/112_The_Real_Love.mp3</link>
       <description>Title: The Real Love
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2128,6 +2249,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 113: Right Motivation</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/113_Right_Motivation.mp3</link>
       <description>Title: Right Motivation
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2147,6 +2269,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 114: Fearlessness</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/114_Fearlessness.mp3</link>
       <description>Title: Fearlessness
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2166,6 +2289,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 115: The Middle Way</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/115_The_Middle_Way.mp3</link>
       <description>Title: The Middle Way
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2185,6 +2309,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 116: Naughty Children..</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/116_Naughty_Children.mp3</link>
       <description>Title: Naughty Children..
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2204,6 +2329,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 117: Free of Trace</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/117_Free_of_Trace.mp3</link>
       <description>Title: Free of Trace
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2223,6 +2349,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 118: Disentangling</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/118_Disentangling.mp3</link>
       <description>Title: Disentangling
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2242,6 +2369,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 119: Early Buddhism Quantum Physics  Relativity</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/119_Early_Buddhism_Quantum_Physics_Relativity.mp3</link>
       <description>Title: Early Buddhism Quantum Physics  Relativity
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2261,6 +2389,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 120: The 2 Kinds of Desire</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/120_The_2_Kinds_of_Desire.mp3</link>
       <description>Title: The 2 Kinds of Desire
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2280,6 +2409,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 121: Ānāpānasati Breathing Meditation</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/121_%C4%80n%C4%81p%C4%81nasati_Breathing_Meditation.mp3</link>
       <description>Title: Ānāpānasati Breathing Meditation
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2299,6 +2429,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 122: Voidness ..</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/122_Voidness.mp3</link>
       <description>Title: Voidness ..
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2318,6 +2449,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 123: The 24 Buddhas</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/123_The_24_Buddhas.mp3</link>
       <description>Title: The 24 Buddhas
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2337,6 +2469,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 124: Contentment &amp; Gratitude</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/124_Contentment_and_Gratitude.mp3</link>
       <description>Title: Contentment &amp; Gratitude
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2356,6 +2489,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 125: Artificial intelligence</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/125_Artificial_intelligence.mp3</link>
       <description>Title: Artificial intelligence
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2375,6 +2509,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 126: Modern Buddhism</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/126_Modern_Buddhism.mp3</link>
       <description>Title: Modern Buddhism
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2394,6 +2529,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 127: Without Self ..</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/127_Without_Self.mp3</link>
       <description>Title: Without Self ..
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2413,6 +2549,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 128: Dependent Origination (Paticca Samuppāda)</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/128_Dependent_Origination-Paticca_Samupp%C4%81da.mp3</link>
       <description>Title: Dependent Origination (Paticca Samuppāda)
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2432,6 +2569,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 129: Rebirth Linking</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/129_Rebirth_Linking.mp3</link>
       <description>Title: Rebirth Linking
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2451,6 +2589,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 130: Emotional Karma</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/130_Emotional_Karma.mp3</link>
       <description>Title: Emotional Karma
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2470,6 +2609,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 131: The Noble Life</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/131_The_Noble_Life.mp3</link>
       <description>Title: The Noble Life
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2489,6 +2629,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 132: Withdrawal Wins</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/132_Withdrawal_Wins.mp3</link>
       <description>Title: Withdrawal Wins
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2508,6 +2649,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 133: Establishing Awareness</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/133_Establishing_Awareness.mp3</link>
       <description>Title: Establishing Awareness
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2527,6 +2669,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 134: The 4 Noble Truths</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/134_The_4_Noble_Truths.mp3</link>
       <description>Title: The 4 Noble Truths
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2546,6 +2689,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 135: The Noble Way</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/135_The_Noble_Way.mp3</link>
       <description>Title: The Noble Way
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2565,6 +2709,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 136: All-Encompassing ..</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/136_All-Encompassing.mp3</link>
       <description>Title: All-Encompassing ..
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>
@@ -2584,6 +2729,7 @@ Album: Dhamma on Air</media:description>
 
     <item>
       <title>Episode 137: Buddhist Intuition</title>
+      <link>https://pod.afm.co/Bhikku_Samahita/DhammaOnAir/137_Buddhist_Intuition.mp3</link>
       <description>Title: Buddhist Intuition
 Artist: Bhikkhu Samahita
 Album: Dhamma on Air</description>

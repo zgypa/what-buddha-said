@@ -43,8 +43,27 @@ FIXED_EPISODE_DATES = {
     98: "2018-04-15",
 }
 
+PODCAST_CATEGORIES = [
+    ("Religion & Spirituality", "Buddhism"),
+    # Add more categories/subcategories as needed
+]
+COPYRIGHT = "No Copyright. Free to share and use."
+OWNER_NAME = "Bikkhu Samahita"
+OWNER_EMAIL = "what-buddha-said-net@antoniomagni.com"  # Change to a real email if desired
+
 
 def generate_rss_header(base_url, cover_image):
+    # Build category tags
+    itunes_category_tags = ""
+    for cat, subcat in PODCAST_CATEGORIES:
+        if subcat:
+            itunes_category_tags += f'    <itunes:category text="{cat}">\n      <itunes:category text="{subcat}"/>\n    </itunes:category>\n'
+        else:
+            itunes_category_tags += f'    <itunes:category text="{cat}"/>\n'
+    # Add generic <category> for RSS readers
+    rss_category_tags = "".join(
+        [f'    <category>{cat}</category>\n' for cat, _ in PODCAST_CATEGORIES])
+
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
@@ -58,7 +77,13 @@ def generate_rss_header(base_url, cover_image):
     <itunes:image href="{cover_image}"/>
     <itunes:summary>{DESCRIPTION}</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
-    <image>
+    <itunes:type>episodic</itunes:type>
+    <copyright>{COPYRIGHT}</copyright>
+    <itunes:owner>
+      <itunes:name>{OWNER_NAME}</itunes:name>
+      <itunes:email>{OWNER_EMAIL}</itunes:email>
+    </itunes:owner>
+{itunes_category_tags}{rss_category_tags}    <image>
       <url>{cover_image}</url>
       <title>{PODCAST_TITLE}</title>
       <link>{base_url}</link>
@@ -76,6 +101,9 @@ def generate_episode_item(
 ):
     title = escape(f"Episode {ep_num}: {title_raw}")
     description = escape(description)
+    # Build episode web page URL (fallback to audio file if no web page)
+    # You can customize this to point to a real episode page if available
+    episode_page_url = f"{base_url}{encoded_filename}"
     # media:thumbnail and media:content for artwork and audio
     media_thumbnail = f'<media:thumbnail url="{itunes_image_url}"/>'
     media_content = (
@@ -89,6 +117,7 @@ def generate_episode_item(
     return f"""
     <item>
       <title>{title}</title>
+      <link>{episode_page_url}</link>
       <description>{description}</description>
       <enclosure url="{base_url}{encoded_filename}" length="{file_size}" type="audio/mpeg"/>
       <guid>{base_url}{encoded_filename}</guid>

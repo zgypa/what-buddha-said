@@ -16,7 +16,8 @@ import xml.dom.minidom
 from email.utils import formatdate
 from urllib.parse import quote
 from mutagen.mp3 import MP3
-from mutagen.id3 import ID3, APIC
+from mutagen.id3 import ID3
+from mutagen.id3._frames import APIC
 from PIL import Image, ImageOps
 from tqdm import tqdm
 
@@ -26,7 +27,7 @@ logging.basicConfig(level=logging.INFO,
 logger = logging.getLogger(__name__)
 
 # CONFIGURATION
-MEDIA_BASE_URL = "https://pod.afm.co/Bhikku_Samahita/DhammaOnAir"
+MEDIA_BASE_URL = "https://pod.afm.co/episodes/Bhikku_Samahita/DhammaOnAir"
 FEED_BASE_URL = "https://www.antoniomagni.com/what-buddha-said"
 PODCAST_TITLE = "Dhamma on Air"
 AUTHOR = "Samahita Thera"
@@ -371,7 +372,14 @@ def generate_rss_feed(base_url, cover_image, episode_infos, audio_dir, episode_a
                     if isinstance(tag, APIC):
                         # Convert and pad to ARTWORK_SIZExARTWORK_SIZE JPEG with max compression
                         if overwrite_artwork or not os.path.exists(episode_artwork_path):
-                            img = Image.open(BytesIO(tag.data)).convert("RGB")
+                            # Use tag.data if available, else fallback to tag._data
+                            image_bytes = getattr(tag, "data", None)
+                            if image_bytes is None:
+                                image_bytes = getattr(tag, "_data", None)
+                            if image_bytes is None:
+                                logger.warning(f"Could not extract image data from APIC tag in {filename}")
+                                continue
+                            img = Image.open(BytesIO(image_bytes)).convert("RGB")
                             img_padded = ImageOps.pad(
                                 img, (ARTWORK_SIZE, ARTWORK_SIZE), color=(0, 0, 0), centering=(0.5, 0.5))
                             img_padded.save(
